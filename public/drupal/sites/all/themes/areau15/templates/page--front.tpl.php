@@ -64,8 +64,3 @@ if($is_front){
     </section>
 
     <div id="last"></div>
-
-    <?php print render($page['footer']); ?>
-
-
-<?php print render($page['bottom']); ?>
