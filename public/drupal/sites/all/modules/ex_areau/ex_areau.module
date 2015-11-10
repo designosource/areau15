@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ex_Areau feature.
+ */
+
+include_once 'ex_areau.features.inc';

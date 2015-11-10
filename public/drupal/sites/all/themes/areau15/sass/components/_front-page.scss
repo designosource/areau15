@@ -1,0 +1,56 @@
+.video {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+	video {
+		min-width: 100%; 
+		min-height: 100%; 
+		width: auto; 
+		height: auto;
+	}
+
+	.site-info {
+		position: absolute;
+		z-index: 1000;
+		top: 50%;
+
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+}
+
+.menu-item {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+
+	&:hover {
+		.overlay {
+			opacity: 1;
+		}
+	}
+
+	img {
+		min-height: 100vh;
+	}
+
+	.overlay {
+		opacity: 0.1;
+		position: absolute;
+
+		width: 35%;
+	    left: 32.5%;
+	    height: 70%;
+	    top: 15%;
+
+	    text-align: center;
+
+		background-color: rgba(255, 255, 255, 0.75);
+
+		transition: opacity 1s ease-in-out;
+	}
+}
