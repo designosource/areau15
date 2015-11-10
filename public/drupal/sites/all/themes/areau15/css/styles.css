@@ -1790,12 +1790,21 @@ tr.selected td {
   text-decoration: uppercase;
 }
 
-/* line 2, ../sass/components/_main-nav.scss */
+/* line 3, ../sass/components/_main-nav.scss */
+.main-nav.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: #FFF;
+}
+/* line 12, ../sass/components/_main-nav.scss */
 .main-nav ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 6, ../sass/components/_main-nav.scss */
+/* line 16, ../sass/components/_main-nav.scss */
 .main-nav ul li {
   margin: 0;
   padding: 25px 0;
@@ -1804,7 +1813,7 @@ tr.selected td {
   float: left;
   text-align: center;
 }
-/* line 16, ../sass/components/_main-nav.scss */
+/* line 26, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a {
   display: block;
   margin: 0 auto;

@@ -6,6 +6,8 @@
  * the README.txt next to this file.
  */
 
+console.log('hlelloo');
+
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - https://drupal.org/node/1446420
@@ -21,6 +23,26 @@ Drupal.behaviors.my_custom_behavior = {
 
   }
 };
+
+$(document).ready(function() {
+	var stickyNavTop = $('.main-nav').offset().top,
+	    height = $('.video').height();
+
+	var stickyNav = function(){
+	var scrollTop = $(window).scrollTop();
+	if (scrollTop > stickyNavTop && scrollTop > height) { 
+	    $('.main-nav').addClass('sticky');
+	} else {
+	    $('.main-nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+	    stickyNav();
+	});
+});
 
 
 })(jQuery, Drupal, this, this.document);

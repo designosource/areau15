@@ -64,3 +64,25 @@ if($is_front){
     </section>
 
     <div id="last"></div>
+
+    <footer>
+        <div class="col">
+            <h3>Prijs-Project-Info</h3>
+            <img src="logo" alt="">
+        </div>
+        <div class="col">
+            <h3>Contact</h3>
+            <div class="address">
+                <p>Mechelsesteenweg 87</p>
+                <p>2018 Antwerpen</p>
+                <p>België</p>
+            </div>
+            <div class="contact">
+                <a href="info@areau.be">info@area.be</a>
+                <a href="tel:032261712">+32 [0]3 226</a>
+            </div>
+        </div>
+        <div class="col">
+            
+        </div>
+    </footer>
