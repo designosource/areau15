@@ -24,6 +24,7 @@
 @import "layouts/responsive";
 
 /* Component (SMACSS module) rules */
+@import "components/_fonts";
 @import "components/misc";
 @import "components/_general.scss";
 @import "components/_front-page.scss";
