@@ -18,6 +18,8 @@ if($is_front){
         <?php if ($site_name || $site_slogan): ?>
 
             <div class="site-info">
+                <img src="sites/all/themes/areau15/images/logo-areau.svg" alt="">
+                <!-- 
                 <?php if ($site_name): ?>
                     <h1 class="site-name" id="site-name">
                         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
@@ -27,6 +29,13 @@ if($is_front){
                 <?php if ($site_slogan): ?>
                     <div class="site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
                 <?php endif; ?>
+                -->
+                
+            </div>
+
+            <div class="header-footer areau-credits">
+                <p class="line1">DESIGN - INTERIOR - SERVICES</p>
+                <p class="line2">‘Something inspiring’</p>
             </div>
 
         <?php endif; ?>
@@ -39,7 +48,7 @@ if($is_front){
     <section class="main-nav">
 
             <?php if ($main_menu): ?>
-                <nav role="navigation" tabindex="-1">
+                <nav class="wrapper" role="navigation" tabindex="-1">
                     <?php
                     // This code snippet is hard to modify. We recommend turning off the
                     // "Main menu" on your sub-theme's settings form, deleting this PHP
@@ -66,23 +75,33 @@ if($is_front){
     <div id="last"></div>
 
     <footer>
-        <div class="col">
-            <h3>Prijs-Project-Info</h3>
-            <img src="logo" alt="">
-        </div>
-        <div class="col">
-            <h3>Contact</h3>
-            <div class="address">
-                <p>Mechelsesteenweg 87</p>
-                <p>2018 Antwerpen</p>
-                <p>België</p>
+        <div class="wrapper clearfix">
+            <div class="placeholder">
+                
             </div>
-            <div class="contact">
-                <a href="info@areau.be">info@area.be</a>
-                <a href="tel:032261712">+32 [0]3 226</a>
+            <div class="col">
+                <h3>Prijs-Project-Info</h3>
+                <img src="logo" alt="">
             </div>
-        </div>
-        <div class="col">
-            
+            <div class="col">
+                <h3>Contact</h3>
+                <div class="address">
+                    <p>Mechelsesteenweg 87</p>
+                    <p>2018 Antwerpen</p>
+                    <p>België</p>
+                </div>
+                <div class="contact">
+                    <a href="info@areau.be">info@area.be</a>
+                    <a href="tel:032261712">+32 [0]3 226</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>'Op de hoogte blijven'</h3>
+                <form action="POST">
+                    <input type="text" name="name" id="name" placeholder="Naam">
+                    <input type="text" name="email" id="email" placeholder="E-Mail">
+                    <input type="submit" name="send" value="Verstuur" id="">
+                </form>
+            </div>
         </div>
     </footer>

@@ -1,3 +1,7 @@
+.block {
+	margin: 0;
+}
+
 .video {
 	height: 100vh;
 	width: 100%;
@@ -15,17 +19,44 @@
 		position: absolute;
 		z-index: 1000;
 		top: 50%;
+		margin-top: -74px;
 
 		display: block;
 		width: 100%;
 		text-align: center;
+			
+		.site-name {
+			a {
+				font-family: DinRegular;
+				font-size: 86px;
+				text-transform: uppercase;
+				letter-spacing: 10px;
+				color: rgba(0, 0, 0, 0.7);
 
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
 	}
+
+	.header-footer {
+		position: absolute;
+		width: 100%;
+		bottom: 100px;
+		color: #FFF;
+		z-index: 1000;
+	}
+}
+
+.menu-item-link {
+	color: #000;
+	text-decoration: none;
 }
 
 .menu-item {
 	position: relative;
-	height: 100vh;
+	height: 90vh;
 	overflow: hidden;
 
 	&:hover {
@@ -36,6 +67,7 @@
 
 	img {
 		min-height: 100vh;
+		min-width: 100%;
 	}
 
 	.overlay {
@@ -43,18 +75,28 @@
 		position: absolute;
 
 		width: 35%;
-	    left: 32.5%;
-	    height: 70%;
-	    top: 15%;
+		left: 32.5%;
+		min-height: 60%;
+		top: 15%;
+		padding: 30px 0;
 
-	    text-align: center;
+		text-align: center;
 
-		background-color: rgba(255, 255, 255, 0.75);
+		background-color: rgba(255, 255, 255, 0.70);
 
 		transition: opacity 1s ease-in-out;
 
+		h3 {
+			padding: 0 30px;
+			font-family: DinRegular;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+		}
+
 		.desicription {
+			padding: 0 30px;
 			text-decoration: uppercase;
+			font-family: DinRegular;
 		}
 
 		.footer {
@@ -63,19 +105,6 @@
 			width: 100%;
 			box-sizing: border-box;
 			padding: 20px;
-
-			p {
-				margin: 0;
-				text-align: center;
-
-				&.top {
-					font-weight: 700;
-				}
-
-				&.bottom {
-					text-decoration: uppercase;
-				}
-			}
 		}
 	}
 }

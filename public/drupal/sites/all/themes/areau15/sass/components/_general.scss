@@ -1,3 +1,29 @@
 #content {
 	padding: 0;
 }
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+.areau-credits {
+	p {
+		margin: 0;
+		text-align: center;
+
+		&.line1 {
+			font-family: DinRegular;
+			font-size: 12px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		&.line2 {
+			font-family: 'Times new roman';
+			font-style: italic;
+			font-size: 14px;
+			letter-spacing: 2px;
+		}
+	}
+}

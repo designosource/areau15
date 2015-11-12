@@ -1,5 +1,17 @@
+.toolbar {
+	.main-nav {
+		&.sticky {
+			margin-top: 30px;
+		}
+	}
+}
+
 .main-nav {
 	
+	font-family: DinRegular;
+	height: 10vh;
+    overflow: hidden;
+
 	&.sticky {
 		position: fixed;
 	    width: 100%;
@@ -21,7 +33,18 @@
 			width: 14.2%;
 			float: left;
 			text-align: center;
+			
+			a {
+				color: #000;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 14px;
 
+				&.active {
+					border-bottom: 1px solid;
+				}
+			}
+	
 			&:nth-child(4) {
 				a {
 					display: block;
@@ -29,8 +52,11 @@
 					width: 50px;
 					height: 50px;
 					border-radius: 50%;
-
-					background-color: red;
+					background-color: transparent;
+					color: transparent;
+					background-image: url('../images/AAlogo.png');
+					background-repeat: no-repeat;
+					background-size: cover;
 				}
 			}
 		}
