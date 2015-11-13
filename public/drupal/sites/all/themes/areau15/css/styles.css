@@ -1806,22 +1806,22 @@ tr.selected td {
 }
 
 /* line 57, ../sass/components/_front-page.scss */
-.menu-item {
+.item {
   position: relative;
   height: 90vh;
   overflow: hidden;
 }
 /* line 63, ../sass/components/_front-page.scss */
-.menu-item:hover .overlay {
+.item:hover .overlay {
   opacity: 1;
 }
 /* line 68, ../sass/components/_front-page.scss */
-.menu-item img {
+.item img {
   min-height: 100vh;
   min-width: 100%;
 }
 /* line 73, ../sass/components/_front-page.scss */
-.menu-item .overlay {
+.item .overlay {
   opacity: 0;
   position: absolute;
   width: 35%;
@@ -1834,20 +1834,20 @@ tr.selected td {
   transition: opacity 1s ease-in-out;
 }
 /* line 89, ../sass/components/_front-page.scss */
-.menu-item .overlay h3 {
+.item .overlay h3 {
   padding: 0 30px;
   font-family: DinRegular;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 /* line 96, ../sass/components/_front-page.scss */
-.menu-item .overlay .desicription {
+.item .overlay .desicription {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
 }
 /* line 102, ../sass/components/_front-page.scss */
-.menu-item .overlay .footer {
+.item .overlay .footer {
   bottom: 0;
   position: absolute;
   width: 100%;
