@@ -2003,7 +2003,7 @@ footer input[type="submit"] {
 }
 
 /* line 12, ../sass/components/_typography.scss */
-.seventyfivespace, footer .col div p, footer .col div a, .overlay h4 {
+.seventyfivespace, footer .col div p, footer .col div a, footer input, .overlay h4, .main-nav a {
   letter-spacing: 0.075em !important;
 }
 
@@ -2016,11 +2016,13 @@ footer input[type="submit"] {
 */
 /* overlay typography
 */
-/* line 35, ../sass/components/_typography.scss */
+/* line 38, ../sass/components/_typography.scss */
 .overlay h3 {
   font-weight: 400;
 }
 
+/* menu typography
+*/
 /**
  * @file
  * Print styling

@@ -28,6 +28,9 @@ footer{
 			}
 		}
 	}
+	& input{
+		@extend .seventyfivespace;
+	}
 }
 /* overlay typography
 */
@@ -52,5 +55,12 @@ footer{
 		&2{
 			@extend .sixtyfivespace;
 		}
+	}
+}
+/* menu typography
+*/
+.main-nav{
+	& a{
+		@extend .seventyfivespace;
 	}
 }
