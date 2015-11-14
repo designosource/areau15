@@ -1985,6 +1985,42 @@ footer input[type="submit"] {
   border: 1px solid #524C46;
 }
 
+/* generic classes
+*/
+/* line 3, ../sass/components/_typography.scss */
+.fortyfivespace, .areau-credits .line1 {
+  letter-spacing: 0.045em !important;
+}
+
+/* line 6, ../sass/components/_typography.scss */
+.fiftyspace, footer h3, .overlay h3, .overlay .description {
+  letter-spacing: 0.05em !important;
+}
+
+/* line 9, ../sass/components/_typography.scss */
+.sixtyfivespace, .areau-credits .line2 {
+  letter-spacing: 0.065em !important;
+}
+
+/* line 12, ../sass/components/_typography.scss */
+.seventyfivespace, footer .col div p, footer .col div a, .overlay h4 {
+  letter-spacing: 0.075em !important;
+}
+
+/* line 15, ../sass/components/_typography.scss */
+.hundredspace {
+  letter-spacing: 0.1em !important;
+}
+
+/* footer typography
+*/
+/* overlay typography
+*/
+/* line 35, ../sass/components/_typography.scss */
+.overlay h3 {
+  font-weight: 400;
+}
+
 /**
  * @file
  * Print styling

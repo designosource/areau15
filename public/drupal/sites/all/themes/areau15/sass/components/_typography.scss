@@ -1,0 +1,56 @@
+/* generic classes
+*/
+.fortyfivespace{
+	letter-spacing: 0.045em !important;
+}
+.fiftyspace{
+	letter-spacing: 0.05em !important;
+}
+.sixtyfivespace{
+	letter-spacing: 0.065em !important;
+}
+.seventyfivespace{
+	letter-spacing: 0.075em !important;
+}
+.hundredspace{
+	letter-spacing: 0.1em !important;
+}
+/* footer typography
+*/
+footer{
+	& h3{
+		@extend .fiftyspace;
+	}
+	& .col{
+		& div{
+			& p, a{
+				@extend .seventyfivespace;
+			}
+		}
+	}
+}
+/* overlay typography
+*/
+.overlay{
+	& h3{
+		@extend .fiftyspace;
+		font-weight: 400;
+	}
+	& h4{
+		// Legacy Class to prepare for sub-title addition
+		@extend .seventyfivespace;
+	}
+	& .description{
+		@extend .fiftyspace;
+	}
+}
+.areau-credits{
+	& .line{
+		&1{
+			@extend .fortyfivespace;
+		}
+		&2{
+			@extend .sixtyfivespace;
+		}
+	}
+}
