@@ -1,17 +1,11 @@
 footer {
-	background-color: #d3bda5;
 	text-align: center;
 	font-family: DinRegular;
 	text-transform: uppercase;
-	min-height: 90vh;
 	padding: 50px;
 	box-sizing: border-box;
-
-	.placeholder {
-		min-height: 60vh;
-		width: 100%;
-		background-color: #E9DED2;
-	}
+	position: relative;
+	margin-top: -334px; //STATIC
 
 	.col {
 		margin: 0;

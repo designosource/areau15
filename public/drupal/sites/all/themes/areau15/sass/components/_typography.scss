@@ -37,14 +37,17 @@ footer{
 .overlay{
 	& h3{
 		@extend .fiftyspace;
-		font-weight: 400;
+		font-weight: 600;
+		font-size: 24px;
 	}
 	& h4{
 		// Legacy Class to prepare for sub-title addition
 		@extend .seventyfivespace;
+		font-size: 18px;
 	}
 	& .description{
 		@extend .fiftyspace;
+		font-size: 12px;
 	}
 }
 .areau-credits{
