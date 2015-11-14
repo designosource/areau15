@@ -1970,10 +1970,15 @@ footer input[type="text"] {
   text-align: center;
   text-transform: uppercase;
   font-family: DinRegular;
-  background-color: #E9DED2;
+  background-color: rgba(255, 255, 255, 0.25);
   border: none;
+  transition: background-color 0.3s ease-in-out;
 }
-/* line 54, ../sass/components/_footer.scss */
+/* line 55, ../sass/components/_footer.scss */
+footer input[type="text"]:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 60, ../sass/components/_footer.scss */
 footer input[type="submit"] {
   margin: 0 auto 10px;
   display: block;
@@ -1982,8 +1987,13 @@ footer input[type="submit"] {
   text-align: center;
   text-transform: uppercase;
   font-family: DinRegular;
-  background-color: #E9DED2;
-  border: 1px solid #524C46;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(80, 80, 80, 0.25);
+  transition: background-color 0.3s ease-in-out;
+}
+/* line 73, ../sass/components/_footer.scss */
+footer input[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 /* generic classes
