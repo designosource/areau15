@@ -1841,7 +1841,7 @@ tr.selected td {
   text-transform: uppercase;
 }
 /* line 96, ../sass/components/_front-page.scss */
-.item .overlay .desicription {
+.item .overlay .description {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
