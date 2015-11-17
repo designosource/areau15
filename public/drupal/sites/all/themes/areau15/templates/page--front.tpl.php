@@ -64,6 +64,8 @@ if($is_front){
 
     </section>
 
+    <div class="pseudo-menu"></div>
+
     <section class="menu">
 
         <div id="content" class="column" role="main">

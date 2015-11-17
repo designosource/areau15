@@ -2,6 +2,12 @@
 	margin: 0;
 }
 
+.pseudo-menu {
+	height: 10vh;
+	background-color: red;
+	display: hidden;
+}
+
 .video {
 	height: 100vh;
 	width: 100%;
@@ -105,6 +111,14 @@
 			width: 100%;
 			box-sizing: border-box;
 			padding: 20px;
+		}
+	}
+}
+
+.view-menu-open-huis {
+	.item {
+		.overlay {
+			min-height: 40%;
 		}
 	}
 }

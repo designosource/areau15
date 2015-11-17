@@ -29,12 +29,14 @@ $(document).ready(function() {
 	    height = $('.video').height();
 
 	var stickyNav = function(){
-	var scrollTop = $(window).scrollTop();
-	if (scrollTop > stickyNavTop && scrollTop > height) { 
-	    $('.main-nav').addClass('sticky');
-	} else {
-	    $('.main-nav').removeClass('sticky'); 
-	}
+		var scrollTop = $(window).scrollTop();
+		if (scrollTop > stickyNavTop && scrollTop > height) { 
+		    $('.main-nav').addClass('sticky');
+		    $('.pseudo-menu').show();
+		} else {
+		    $('.main-nav').removeClass('sticky'); 
+		    $('.pseudo-menu').hide();
+		}
 	};
 	 
 	stickyNav();
