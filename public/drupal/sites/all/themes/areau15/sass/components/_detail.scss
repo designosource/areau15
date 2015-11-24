@@ -1,0 +1,35 @@
+.detail {
+	.image-wrapper {
+		position: relative;
+		height: 90vh;
+		overflow: hidden;
+
+		img {
+			min-height: 100vh;
+   	 		min-width: 100%;
+		}
+
+		.content-wrapper {
+
+			position: absolute;
+			width: 25%;
+			right: 15%;
+	
+			h3 {
+				text-align: center;
+			}
+
+			p {
+				font-size: 12px;
+			}
+
+			&.top {
+				top: 5%;
+			}
+
+			&.bottom {
+				bottom: 5%;
+			}
+		}
+	}
+}
