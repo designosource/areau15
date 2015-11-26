@@ -6,7 +6,7 @@
 			// check if node is being rendered inside a view or not
 			// print out the footer only if it is inside a view
 			// works but no idea how
-			if (node_is_page($node->field_id)) {
+			if (node_is_page($node->id)) {
 				echo('<div class="footer areau-credits"><p class="line2">out-and-out the inside</p><p class="line1">Design - Interior - Services</p></div>');
 			}
 		?>
