@@ -1813,22 +1813,22 @@ tr.selected td {
 }
 
 /* line 63, ../sass/components/_front-page.scss */
-.item {
+.view .item {
   position: relative;
   height: 90vh;
   overflow: hidden;
 }
 /* line 69, ../sass/components/_front-page.scss */
-.item:hover .overlay {
+.view .item:hover .overlay {
   opacity: 1;
 }
 /* line 74, ../sass/components/_front-page.scss */
-.item img {
+.view .item img {
   min-height: 100vh;
   min-width: 100%;
 }
 /* line 79, ../sass/components/_front-page.scss */
-.item .overlay {
+.view .item .overlay {
   opacity: 0;
   position: absolute;
   width: 35%;
@@ -1841,20 +1841,20 @@ tr.selected td {
   transition: opacity 1s ease-in-out;
 }
 /* line 95, ../sass/components/_front-page.scss */
-.item .overlay h3 {
+.view .item .overlay h3 {
   padding: 0 30px;
   font-family: DinRegular;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 /* line 102, ../sass/components/_front-page.scss */
-.item .overlay .description {
+.view .item .overlay .description {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
 }
 /* line 108, ../sass/components/_front-page.scss */
-.item .overlay .footer {
+.view .item .overlay .footer {
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -1865,62 +1865,6 @@ tr.selected td {
 /* line 120, ../sass/components/_front-page.scss */
 .view-menu-open-huis .item .overlay {
   min-height: 40%;
-}
-
-/* line 1, ../sass/components/_list.scss */
-.item-link {
-  color: #000;
-  text-decoration: none;
-}
-
-/* line 6, ../sass/components/_list.scss */
-.item {
-  position: relative;
-  height: 90vh;
-  overflow: hidden;
-}
-/* line 12, ../sass/components/_list.scss */
-.item:hover .overlay {
-  opacity: 1;
-}
-/* line 17, ../sass/components/_list.scss */
-.item img {
-  min-height: 100vh;
-  min-width: 100%;
-}
-/* line 22, ../sass/components/_list.scss */
-.item .overlay {
-  opacity: 0;
-  position: absolute;
-  width: 35%;
-  left: 32.5%;
-  min-height: 60%;
-  top: 15%;
-  padding: 30px 0;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
-  transition: opacity 1s ease-in-out;
-}
-/* line 38, ../sass/components/_list.scss */
-.item .overlay h3 {
-  padding: 0 30px;
-  font-family: DinRegular;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-/* line 45, ../sass/components/_list.scss */
-.item .overlay .description {
-  padding: 25px 8%;
-  text-decoration: uppercase;
-  font-family: DinRegular;
-}
-/* line 51, ../sass/components/_list.scss */
-.item .overlay .footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
 }
 
 /* line 3, ../sass/components/_main-nav.scss */
@@ -2148,11 +2092,45 @@ footer input[type="submit"]:hover {
 }
 /* line 26, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.top {
-  top: 5%;
+  top: 0%;
 }
 /* line 30, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
-  bottom: 5%;
+  bottom: 0%;
+}
+
+/* line 37, ../sass/components/_detail.scss */
+.item {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+/* line 42, ../sass/components/_detail.scss */
+.item img {
+  min-height: 100vh;
+  min-width: 100%;
+}
+/* line 47, ../sass/components/_detail.scss */
+.item .overlay {
+  position: absolute;
+  width: 25%;
+  right: 15%;
+}
+/* line 52, ../sass/components/_detail.scss */
+.item .overlay h3 {
+  text-align: center;
+}
+/* line 56, ../sass/components/_detail.scss */
+.item .overlay p {
+  font-size: 12px;
+}
+/* line 60, ../sass/components/_detail.scss */
+.item .overlay .footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 /**

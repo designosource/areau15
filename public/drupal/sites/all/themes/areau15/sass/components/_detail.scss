@@ -24,12 +24,45 @@
 			}
 
 			&.top {
-				top: 5%;
+				top: 0%;
 			}
 
 			&.bottom {
-				bottom: 5%;
+				bottom: 0%;
 			}
+		}
+	}
+}
+
+.item {
+	position: relative;
+	height: 90vh;
+	overflow: hidden;
+
+	img {
+		min-height: 100vh;
+		min-width: 100%;
+	}
+
+	.overlay {
+		position: absolute;
+		width: 25%;
+		right: 15%;
+
+		h3 {
+			text-align: center;
+		}
+
+		p {
+			font-size: 12px;
+		}
+
+		.footer {
+			bottom: 0;
+			position: absolute;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 20px;
 		}
 	}
 }

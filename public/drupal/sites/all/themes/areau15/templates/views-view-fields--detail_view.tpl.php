@@ -4,6 +4,7 @@
 	$bodyTop = $row->_field_data['nid']['entity']->field_top_body['und'][0]['value'];
 	$bodyBottom = $row->_field_data['nid']['entity']->field_bottom_body['und'][0]['value'];
 	$template = $row->_field_data['nid']['entity']->field_template['und'][0]['value'];
+	$top = $row->_field_data['nid']['entity']->field_margin_top['und'][0]['value'];
 	$image = [
 		'path' => '/sites/default/files/detail/' . $row->_field_data['nid']['entity']->field_image['und'][0]['filename']
 	];
@@ -25,7 +26,7 @@
 			
 			echo '<div class="detail '. $template .'">';
 				echo '<div class="image-wrapper">';
-					echo '<div class="content-wrapper">';
+					echo '<div class="content-wrapper" style="top:'.$top.'%">';
 						echo '<h3>' . $title .'</h3>';
 						echo '<p>'. $bodyTop .'</p>';
 					echo '</div>';
