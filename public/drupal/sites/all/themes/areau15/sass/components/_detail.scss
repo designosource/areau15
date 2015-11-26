@@ -5,22 +5,23 @@
 		overflow: hidden;
 
 		img {
-			min-height: 90vh;
+			min-height: 100vh;
    	 		min-width: 100%;
 		}
 
 		.content-wrapper {
 
 			position: absolute;
-			width: 20%;
-			right: 9.50%;
+			width: 20.25%;
+			right: 6%;
 	
 			h3 {
 				text-align: center;
 			}
 
 			p {
-				font-size: 12px;
+				font-size: 10px;
+				line-height: 1.15;
 			}
 
 			&.top {
