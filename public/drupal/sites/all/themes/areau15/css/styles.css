@@ -1715,7 +1715,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1445958905');
+  background-image: url('../images/progress.gif?1447426611');
 }
 
 /* line 1, ../sass/components/_general.scss */
@@ -1963,30 +1963,40 @@ tr.selected td {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  padding-bottom: 2px;
   border-bottom: 1px solid;
   border-color: transparent;
   transition: border-color 0.3s ease-in-out;
 }
-/* line 48, ../sass/components/_main-nav.scss */
+/* line 49, ../sass/components/_main-nav.scss */
 .main-nav ul li a:hover {
   border-color: black;
 }
-/* line 53, ../sass/components/_main-nav.scss */
+/* line 54, ../sass/components/_main-nav.scss */
 .main-nav ul li a.active {
   border-bottom: 1px solid;
 }
-/* line 60, ../sass/components/_main-nav.scss */
+/* line 61, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a {
   display: block;
   margin: 0 auto;
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  padding-bottom: 0px;
   background-color: transparent;
   color: transparent;
   background-image: url("../images/AAlogo.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* line 74, ../sass/components/_main-nav.scss */
+.main-nav ul li:nth-child(4) a:hover {
+  border-color: transparent;
+}
+/* line 78, ../sass/components/_main-nav.scss */
+.main-nav ul li:nth-child(4) a.active {
+  border-bottom: 0px solid;
 }
 
 /* line 1, ../sass/components/_footer.scss */
@@ -2142,10 +2152,6 @@ footer input[type="submit"]:hover {
 }
 /* line 30, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
-  bottom: 5%;
-}
-/* line 44, ../sass/components/_detail.scss */
-.detail.template_text_bottom .image-wrapper .content-wrapper {
   bottom: 5%;
 }
 

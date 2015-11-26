@@ -26,6 +26,8 @@
 
     </section>
 
+    <div class="pseudo-menu"></div>
+
     <section class="menu">
 
         <div id="content" class="column" role="main">
@@ -33,5 +35,3 @@
             <?php print render($page['content']); ?>
         </div>
     </section>
-
-
