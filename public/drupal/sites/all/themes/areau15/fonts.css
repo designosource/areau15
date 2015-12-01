@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "DIN Regular";
+    src: url(fonts/din/DINRegular.ttf);
+}
+
+@font-face {
+    font-family: "DIN Medium";
+    src: url(fonts/din/DINMedium.ttf);
+}
+
+@font-face {
+    font-family: "DIN Bold";
+    src: url(fonts/din/DINBold.ttf);
+}
+
+@font-face {
+    font-family: "DIN Light";
+    src: url(fonts/din/DINLight.ttf);
+}

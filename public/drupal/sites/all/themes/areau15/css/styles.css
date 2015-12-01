@@ -2068,64 +2068,63 @@ footer input[type="submit"]:hover {
 /* line 2, ../sass/components/_detail.scss */
 .detail .image-wrapper {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 /* line 7, ../sass/components/_detail.scss */
 .detail .image-wrapper img {
-  min-height: 100vh;
-  min-width: 100%;
+  min-height: 90vh;
 }
-/* line 12, ../sass/components/_detail.scss */
+/* line 11, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper {
   position: absolute;
   width: 20.25%;
   right: 6%;
 }
-/* line 18, ../sass/components/_detail.scss */
+/* line 17, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper h3 {
   text-align: center;
 }
-/* line 22, ../sass/components/_detail.scss */
+/* line 21, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper p {
   font-size: 10px;
   line-height: 1.15;
 }
-/* line 27, ../sass/components/_detail.scss */
+/* line 26, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.top {
   top: 0%;
 }
-/* line 31, ../sass/components/_detail.scss */
+/* line 30, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
   bottom: 0%;
 }
 
-/* line 38, ../sass/components/_detail.scss */
+/* line 37, ../sass/components/_detail.scss */
 .item {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
-/* line 43, ../sass/components/_detail.scss */
+/* line 42, ../sass/components/_detail.scss */
 .item img {
-  min-height: 100vh;
+  min-height: 90vh;
   min-width: 100%;
 }
-/* line 48, ../sass/components/_detail.scss */
+/* line 47, ../sass/components/_detail.scss */
 .item .overlay {
   position: absolute;
-  width: 25%;
-  right: 15%;
+  width: 20.25%;
+  right: 6%;
 }
-/* line 53, ../sass/components/_detail.scss */
+/* line 52, ../sass/components/_detail.scss */
 .item .overlay h3 {
   text-align: center;
 }
-/* line 57, ../sass/components/_detail.scss */
+/* line 56, ../sass/components/_detail.scss */
 .item .overlay p {
   font-size: 12px;
 }
-/* line 61, ../sass/components/_detail.scss */
+/* line 60, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
