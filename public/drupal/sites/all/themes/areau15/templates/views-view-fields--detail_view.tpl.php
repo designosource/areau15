@@ -29,11 +29,11 @@
 			
 			echo '<div class="detail '. $template .'">';
 				echo '<div class="image-wrapper">';
+					echo theme_image($image);
 					echo '<div class="content-wrapper" style="top:'.$top.'%">';
 						echo '<h3>' . $title .'</h3>';
 						echo '<p>'. $bodyTop .'</p>';
 					echo '</div>';
-					echo theme_image($image);
 				echo '</div>';
 			echo '</div>'; 
 			break;
@@ -42,11 +42,11 @@
 			
 			echo '<div class="detail '. $template .'">';
 				echo '<div class="image-wrapper">';
+				echo theme_image($image);
 					echo '<div class="content-wrapper" style="bottom:'.$bottom.'%">';
 						echo '<h3>' . $title .'</h3>';
 						echo '<p>'. $bodyBottom .'</p>';
 					echo '</div>';
-					echo theme_image($image);
 				echo '</div>';
 			echo '</div>'; 
 			break;
@@ -55,6 +55,7 @@
 					
 			echo '<div class="detail '. $template .'">';
 				echo '<div class="image-wrapper">';
+				echo theme_image($image);
 					echo '<div class="content-wrapper top" style="top:'.$top.'%">';
 						echo '<h3>' . $title .'</h3>';
 						echo '<p>'. $bodyTop .'</p>';
@@ -63,7 +64,6 @@
 					echo '<div class="content-wrapper bottom" style="bottom:'.$bottom.'%">';
 						echo '<p>'. $bodyBottom .'</p>';
 					echo '</div>';
-					echo theme_image($image);
 				echo '</div>';
 			echo '</div>'; 
 			break;

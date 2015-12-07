@@ -8,7 +8,8 @@
  */
 
 if($is_front){
-    $title = ''; // This is optional ... it removes the default Welcome to @site-name
+    $title = 'Home'; // This is optional ... it removes the default Welcome to @site-name
+    drupal_set_title($title);
     $page['content']['system_main']['default_message'] = array(); // This will remove the 'No front page content has been created yet.'
 }
 ?>
@@ -78,9 +79,6 @@ if($is_front){
 
     <footer>
         <div class="wrapper clearfix">
-            <div class="placeholder">
-                
-            </div>
             <div class="col">
                 <h3>Prijs-Project-Info</h3>
                 <img src="logo" alt="">

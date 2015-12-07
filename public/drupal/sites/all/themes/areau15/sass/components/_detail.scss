@@ -40,7 +40,7 @@
 
 .item {
 	position: relative;
-	height: 90vh;
+	height: 1080px;
 	overflow: hidden;
 
 	img {
@@ -50,16 +50,31 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -55%);
-		z-index: -1;
 	}
 
 	.overlay {
 		position: absolute;
 		width: 20.25%;
 		right: 6%;
+		z-index: 90;
+
+		top: 50%;
+		transform: translateY(-50%);
 
 		h3 {
 			text-align: center;
+			font-family: DinBold;
+			letter-spacing: 0.05em;
+		}
+
+		h4 {
+			padding: 0 30px;
+			font-size: 16px;
+			font-family: DinRegular;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
+			margin-top: -1.1em;
+			font-weight: 400;
 		}
 
 		p {
