@@ -6,7 +6,7 @@
 	$template = $row->_field_data['nid']['entity']->field_template['und'][0]['value'];
 	// Custom inline bottom & top values
 	$top = $row->_field_data['nid']['entity']->field_margin_top['und'][0]['value'];
-	$bottom = $row->_field_data['nid']['entity']->field_margin_top['und'][0]['value'];
+	$bottom = $row->_field_data['nid']['entity']->field_margin_bottom['und'][0]['value'];
 	// Background images
 	$image = [
 		'path' => '/sites/default/files/detail/' . $row->_field_data['nid']['entity']->field_image['und'][0]['filename']

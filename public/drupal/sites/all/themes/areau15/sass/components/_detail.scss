@@ -1,11 +1,12 @@
 .detail {
 	.image-wrapper {
 		position: relative;
-		height: 90vh;
+		height: 1000px;
 		overflow: hidden;
 
 		img {
-			min-height: 90vh;
+			height: 100%;
+			min-width: 100%;
 		}
 
 		.content-wrapper {
@@ -15,7 +16,10 @@
 			right: 6%;
 	
 			h3 {
+				font-family: DinBold;
+				letter-spacing: 0.075em;
 				text-align: center;
+				margin-bottom: 0.5em;
 			}
 
 			p {
@@ -40,8 +44,13 @@
 	overflow: hidden;
 
 	img {
-		min-height: 90vh;
-		min-width: 100%;
+		min-height: 1080px;
+		min-width: 1920px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+		z-index: -1;
 	}
 
 	.overlay {

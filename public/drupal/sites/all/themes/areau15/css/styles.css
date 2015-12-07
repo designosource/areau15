@@ -862,13 +862,20 @@ table {
 }
 /* Component (SMACSS module) rules */
 @font-face {
-  font-family: 'DinRegular';
+  font-family: "DinRegular";
   src: url("../fonts/din/DINRegular.ttf");
 }
 @font-face {
-  font-family: 'DinLight';
-  src: url("../fonts/Din/DINProLight.eot");
-  src: local("DINProLight"), url("../fonts/Din/DINProLight.woff") format("woff"), url("../fonts/Din/DINProLight.ttf") format("truetype");
+  font-family: "DinMedium";
+  src: url("../fonts/din/DINMedium.ttf");
+}
+@font-face {
+  font-family: "DinBold";
+  src: url("../fonts/din/DINBold.ttf");
+}
+@font-face {
+  font-family: "DinLight";
+  src: url("../fonts/din/DINLight.ttf");
 }
 /**
  * @file
@@ -2068,63 +2075,72 @@ footer input[type="submit"]:hover {
 /* line 2, ../sass/components/_detail.scss */
 .detail .image-wrapper {
   position: relative;
-  height: 90vh;
+  height: 1000px;
   overflow: hidden;
 }
 /* line 7, ../sass/components/_detail.scss */
 .detail .image-wrapper img {
-  min-height: 90vh;
+  height: 100%;
+  min-width: 100%;
 }
-/* line 11, ../sass/components/_detail.scss */
+/* line 12, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper {
   position: absolute;
   width: 20.25%;
   right: 6%;
 }
-/* line 17, ../sass/components/_detail.scss */
+/* line 18, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper h3 {
+  font-family: DinBold;
+  letter-spacing: 0.075em;
   text-align: center;
+  margin-bottom: 0.5em;
 }
-/* line 21, ../sass/components/_detail.scss */
+/* line 25, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper p {
   font-size: 10px;
   line-height: 1.15;
 }
-/* line 26, ../sass/components/_detail.scss */
+/* line 30, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.top {
   top: 0%;
 }
-/* line 30, ../sass/components/_detail.scss */
+/* line 34, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
   bottom: 0%;
 }
 
-/* line 37, ../sass/components/_detail.scss */
+/* line 41, ../sass/components/_detail.scss */
 .item {
   position: relative;
   height: 90vh;
   overflow: hidden;
 }
-/* line 42, ../sass/components/_detail.scss */
+/* line 46, ../sass/components/_detail.scss */
 .item img {
-  min-height: 90vh;
-  min-width: 100%;
+  min-height: 1080px;
+  min-width: 1920px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  z-index: -1;
 }
-/* line 47, ../sass/components/_detail.scss */
+/* line 56, ../sass/components/_detail.scss */
 .item .overlay {
   position: absolute;
   width: 20.25%;
   right: 6%;
 }
-/* line 52, ../sass/components/_detail.scss */
+/* line 61, ../sass/components/_detail.scss */
 .item .overlay h3 {
   text-align: center;
 }
-/* line 56, ../sass/components/_detail.scss */
+/* line 65, ../sass/components/_detail.scss */
 .item .overlay p {
   font-size: 12px;
 }
-/* line 60, ../sass/components/_detail.scss */
+/* line 69, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
