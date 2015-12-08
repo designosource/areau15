@@ -2079,7 +2079,6 @@ footer {
   padding: 50px;
   box-sizing: border-box;
   position: relative;
-  margin-top: -334px;
 }
 /* line 10, ../sass/components/_footer.scss */
 footer .col {
@@ -2146,6 +2145,12 @@ footer input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+@media (min-width: 992px) {
+  /* line 80, ../sass/components/_footer.scss */
+  footer {
+    margin-top: -334px;
+  }
+}
 /* generic classes
 */
 /* line 3, ../sass/components/_typography.scss */
@@ -2385,10 +2390,6 @@ footer input[type="submit"]:hover {
     display: none;
   }
 
-  /* line 112, ../sass/components/_responsive.scss */
-  footer {
-    margin-top: -664px;
-  }
   /* line 114, ../sass/components/_responsive.scss */
   footer .col {
     width: 100%;
