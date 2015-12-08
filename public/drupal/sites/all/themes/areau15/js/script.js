@@ -6,8 +6,6 @@
  * the README.txt next to this file.
  */
 
-console.log('hlelloo');
-
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - https://drupal.org/node/1446420
@@ -44,6 +42,12 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 	    stickyNav();
 	});
+
+
+    $("#menu-button").click(function() {
+        $("#primary-menu").slideToggle();
+    });
+
 });
 
 

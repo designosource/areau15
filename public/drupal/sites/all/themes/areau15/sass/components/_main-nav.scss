@@ -6,10 +6,28 @@
 	}
 }
 
+.front-nav {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-bottom: 0px;
+    background-color: transparent;
+    color: transparent;
+    background-image: url("../images/AAlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-menu-wrapper {
+	display: none;
+}
+
 .main-nav {
 	
 	font-family: DinRegular;
-	height: 100px;
+	//height: 100px;
     overflow: hidden;
 
 	&.sticky {
@@ -22,15 +40,46 @@
 	}
 
 	ul {
+
 		@extend .clearfix;
 		list-style-type: none;
 		margin: 0;
+		
+		&.mobile {
+			padding: 0 5%;
+			border-bottom: 1px solid #ADB2B6;
+
+			li:first-child {
+				width: 10%;
+				text-indent: -1000px;
+
+				a:hover {
+					border: none;
+				}
+			}
+
+			li:last-child {
+				width: 90%;
+				text-align: right;
+				letter-spacing: 0.05em;
+
+				button:focus {
+					outline: none;
+				}
+			}
+
+			button {
+				background-color: transparent;
+				border: none;
+			}
+		}
+
 		li{
 			margin: 0;
 			padding: 25px 0;
 			line-height: 50px;
 
-			width: 14.2%;
+			width: 50%;
 			float: left;
 			text-align: center;
 			
@@ -58,6 +107,7 @@
 			}
 	
 			&:nth-child(4) {
+				display: none;
 				a {
 					display: block;
 					margin: 0 auto;
@@ -78,6 +128,59 @@
 					&.active{
 						border-bottom: 0px solid;
 					}
+				}
+			}
+		}
+	}
+}
+
+@media(min-width: 992px) {
+
+	.main-menu-wrapper {
+		display: block;
+	}
+
+
+	.mobile {
+		display: none;
+	}
+
+	.main-nav {
+		ul {
+			li{
+				margin: 0;
+				padding: 25px 0;
+				line-height: 50px;
+
+				width: 14.2%;
+				float: left;
+				text-align: center;
+				
+				a {
+					color: #000;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-size: 14px;
+
+					padding-bottom : 2px;
+					border-bottom: 1px solid;
+					border-color: rgba(0,0,0,0);
+
+					transition: border-color 0.3s ease-in-out;
+
+					&:hover{
+						border-color: rgba(0,0,0,1);
+						
+					}
+
+					&.active {
+						border-bottom: 1px solid;
+					}
+
+				}
+		
+				&:nth-child(4) {
+					display: block;
 				}
 			}
 		}
