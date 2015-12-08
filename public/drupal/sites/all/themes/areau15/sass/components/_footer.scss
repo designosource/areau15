@@ -2,18 +2,31 @@ footer {
 	text-align: center;
 	font-family: DinRegular;
 	text-transform: uppercase;
-	padding: 50px;
 	box-sizing: border-box;
 	position: relative;
 	//margin-top: -334px; //STATIC
 
 	.col {
 		margin: 0;
-		padding: 25px 0;
 		box-sizing: border-box;
+		height: 250px;
+
+		display: block;
 
 		float: left;
 		width: 33.333%;
+
+		img {
+			width: 150px;
+			height: 150px;
+		}
+
+		p {
+			margin: 0;
+			display: block;
+			position: relative;
+			bottom: 0;
+		}
 	}
 
 	h3 {
@@ -78,6 +91,6 @@ footer {
 
 @media(min-width: 992px) {
 	footer {
-		margin-top: -334px; //STATIC
+		margin-top: -309px; //STATIC
 	}
 }

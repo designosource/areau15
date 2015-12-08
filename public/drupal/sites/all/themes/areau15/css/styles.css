@@ -1722,7 +1722,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1445958905');
+  background-image: url('../images/progress.gif?1447426611');
 }
 
 /* line 1, ../sass/components/_general.scss */
@@ -2076,33 +2076,45 @@ footer {
   text-align: center;
   font-family: DinRegular;
   text-transform: uppercase;
-  padding: 50px;
   box-sizing: border-box;
   position: relative;
 }
-/* line 10, ../sass/components/_footer.scss */
+/* line 9, ../sass/components/_footer.scss */
 footer .col {
   margin: 0;
-  padding: 25px 0;
   box-sizing: border-box;
+  height: 250px;
+  display: block;
   float: left;
   width: 33.333%;
 }
 /* line 19, ../sass/components/_footer.scss */
+footer .col img {
+  width: 150px;
+  height: 150px;
+}
+/* line 24, ../sass/components/_footer.scss */
+footer .col p {
+  margin: 0;
+  display: block;
+  position: relative;
+  bottom: 0;
+}
+/* line 32, ../sass/components/_footer.scss */
 footer h3 {
   margin: 0;
   padding: 15px 0;
 }
-/* line 24, ../sass/components/_footer.scss */
+/* line 37, ../sass/components/_footer.scss */
 footer .address {
   margin-bottom: 10px;
 }
-/* line 26, ../sass/components/_footer.scss */
+/* line 39, ../sass/components/_footer.scss */
 footer .address p {
   margin: 0;
   font-size: 12px;
 }
-/* line 33, ../sass/components/_footer.scss */
+/* line 46, ../sass/components/_footer.scss */
 footer .contact a {
   margin: 0;
   font-size: 12px;
@@ -2110,7 +2122,7 @@ footer .contact a {
   color: #000;
   text-decoration: none;
 }
-/* line 42, ../sass/components/_footer.scss */
+/* line 55, ../sass/components/_footer.scss */
 footer input[type="text"] {
   margin: 0 auto 10px;
   display: block;
@@ -2123,11 +2135,11 @@ footer input[type="text"] {
   border: none;
   transition: background-color 0.3s ease-in-out;
 }
-/* line 55, ../sass/components/_footer.scss */
+/* line 68, ../sass/components/_footer.scss */
 footer input[type="text"]:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 60, ../sass/components/_footer.scss */
+/* line 73, ../sass/components/_footer.scss */
 footer input[type="submit"] {
   margin: 0 auto 10px;
   display: block;
@@ -2140,15 +2152,15 @@ footer input[type="submit"] {
   border: 1px solid rgba(80, 80, 80, 0.25);
   transition: background-color 0.3s ease-in-out;
 }
-/* line 73, ../sass/components/_footer.scss */
+/* line 86, ../sass/components/_footer.scss */
 footer input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 @media (min-width: 992px) {
-  /* line 80, ../sass/components/_footer.scss */
+  /* line 93, ../sass/components/_footer.scss */
   footer {
-    margin-top: -334px;
+    margin-top: -309px;
   }
 }
 /* generic classes
