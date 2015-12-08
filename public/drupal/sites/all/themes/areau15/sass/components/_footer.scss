@@ -7,9 +7,8 @@ footer {
 	//margin-top: -334px; //STATIC
 
 	.col {
-		margin: 0;
 		box-sizing: border-box;
-		height: 250px;
+		margin: 15px 0;
 
 		display: block;
 
@@ -25,6 +24,14 @@ footer {
 			margin: 0;
 			display: block;
 			position: relative;
+			font-size: 14px;
+			letter-spacing: 0.075em;
+			font-family: DinRegular;
+
+			a{
+				text-decoration: none;
+				color: rgba(0,0,0,0.75);
+			}
 		}
 	}
 
@@ -90,6 +97,10 @@ footer {
 
 @media(min-width: 992px) {
 	footer {
-		margin-top: -309px; //STATIC
+		margin-top: -275px; //STATIC
+
+		.col {
+			margin-top: 0px;
+		}
 	}
 }

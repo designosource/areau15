@@ -115,7 +115,7 @@ if($is_front){
                     <input type="text" name="email" id="email" placeholder="E-Mail">
                     <input type="submit" name="send" value="Verstuur" id="">
                 </form>
-                <p><b>Volg ons op </b><a href="#">Facebook</a>/<a href="#">Vimeo</a></p>
+                <p><b>Volg ons op </b><a href="#">Facebook</a> / <a href="#">Vimeo</a></p>
             </div>
         </div>
     </footer>
