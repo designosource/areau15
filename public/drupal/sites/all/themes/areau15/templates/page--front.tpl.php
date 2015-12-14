@@ -94,7 +94,7 @@ if($is_front){
             <div class="col">
                 <h3>Prijs-Project-Info</h3>
                 <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
-                <p><b>Coming Soon</b></p>
+                <p>Coming Soon</p>
             </div>
             <div class="col">
                 <h3>Contact</h3>
@@ -115,7 +115,7 @@ if($is_front){
                     <input type="text" name="email" id="email" placeholder="E-Mail">
                     <input type="submit" name="send" value="Verstuur" id="">
                 </form>
-                <p><b>Volg ons op </b><a href="#">Facebook</a> / <a href="#">Vimeo</a></p>
+                <p><b>Volg ons op </b><a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a> / <a href="https://vimeo.com/user37928837">Vimeo</a></p>
             </div>
         </div>
     </footer>

@@ -7,7 +7,7 @@
 	];
 ?>
 
-<div class="item" id="open-huis">
+<div class="item">
 <?php if ($title !== "null"): ?>
 	<div class="overlay">
 		<h3><?php echo($title); ?></h3>
