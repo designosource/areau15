@@ -89,6 +89,13 @@
 		}
 	}
 
+	.view-menu-open-huis .item{
+		.overlay{
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+		}
+	}
+
 	#content>.item{
 
 		height: auto;
@@ -106,6 +113,7 @@
 
 			top: 0;
 			left: 0;
+			-webkit-transform: none;
 			transform: none;
 		}
 
@@ -121,6 +129,7 @@
 			left: 0 !important;
 			top: 0 !important;
 
+			-webkit-transform: none !important;
 			transform: none !important;
 
 			& * {

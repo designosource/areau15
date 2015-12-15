@@ -5,6 +5,7 @@
  * When you turn on CSS aggregation at admin/config/development/performance, all
  * of these @include files will be combined into a single file.
  */
+@import url(../fonts/webfont/stylesheet.css);
 /* line 10, ../sass/styles.scss */
 .clearfix:after, .main-nav ul:after {
   content: "";
@@ -861,22 +862,6 @@ table {
   }
 }
 /* Component (SMACSS module) rules */
-@font-face {
-  font-family: "DinRegular";
-  src: url("../fonts/din/DINRegular.ttf");
-}
-@font-face {
-  font-family: "DinMedium";
-  src: url("../fonts/din/DINMedium.ttf");
-}
-@font-face {
-  font-family: "DinBold";
-  src: url("../fonts/din/DINBold.ttf");
-}
-@font-face {
-  font-family: "DinLight";
-  src: url("../fonts/din/DINLight.ttf");
-}
 /**
  * @file
  * SMACSS Modules
@@ -1722,7 +1707,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1447426611');
+  background-image: url('../images/progress.gif?1450129973');
 }
 
 /* line 1, ../sass/components/_general.scss */
@@ -1840,9 +1825,10 @@ tr.selected td {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 87, ../sass/components/_front-page.scss */
+/* line 88, ../sass/components/_front-page.scss */
 .view .item .overlay {
   opacity: 0;
   position: absolute;
@@ -1851,13 +1837,14 @@ tr.selected td {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   padding: 30px 0;
   max-width: 100vw;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
   transition: opacity 1s ease-in-out;
 }
-/* line 108, ../sass/components/_front-page.scss */
+/* line 110, ../sass/components/_front-page.scss */
 .view .item .overlay h3 {
   padding: 0 30px;
   font-family: DinRegular;
@@ -1865,7 +1852,7 @@ tr.selected td {
   text-transform: uppercase;
   margin-bottom: 0.5em;
 }
-/* line 116, ../sass/components/_front-page.scss */
+/* line 118, ../sass/components/_front-page.scss */
 .view .item .overlay h4 {
   padding: 0 30px;
   font-size: 16px;
@@ -1875,13 +1862,13 @@ tr.selected td {
   margin-top: -1.1em;
   font-weight: 400;
 }
-/* line 126, ../sass/components/_front-page.scss */
+/* line 128, ../sass/components/_front-page.scss */
 .view .item .overlay .description {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
 }
-/* line 132, ../sass/components/_front-page.scss */
+/* line 134, ../sass/components/_front-page.scss */
 .view .item .overlay .footer {
   bottom: 0;
   position: absolute;
@@ -1890,17 +1877,11 @@ tr.selected td {
   padding: 20px;
 }
 
-/* line 144, ../sass/components/_front-page.scss */
+/* line 146, ../sass/components/_front-page.scss */
 .view-menu-open-huis .item .overlay {
   min-height: 45%;
+  -webkit-transform: translate(-50%, -80%);
   transform: translate(-50%, -80%);
-}
-/* line 148, ../sass/components/_front-page.scss */
-.view-menu-open-huis .item img {
-  top: 0;
-  left: 0;
-  position: relative;
-  transform: none;
 }
 
 /* line 3, ../sass/components/_main-nav.scss */
@@ -1958,25 +1939,30 @@ tr.selected td {
   text-indent: -1000px;
 }
 /* line 56, ../sass/components/_main-nav.scss */
-.main-nav ul.mobile li:first-child a:hover {
-  border: none;
+.main-nav ul.mobile li:first-child a {
+  height: 50px;
 }
-/* line 61, ../sass/components/_main-nav.scss */
+/* line 60, ../sass/components/_main-nav.scss */
+.main-nav ul.mobile li:first-child a:hover {
+  border: 0px solid transparent;
+  height: 50px;
+}
+/* line 66, ../sass/components/_main-nav.scss */
 .main-nav ul.mobile li:last-child {
   width: 90%;
   text-align: right;
   letter-spacing: 0.05em;
 }
-/* line 66, ../sass/components/_main-nav.scss */
+/* line 71, ../sass/components/_main-nav.scss */
 .main-nav ul.mobile li:last-child button:focus {
   outline: none;
 }
-/* line 71, ../sass/components/_main-nav.scss */
+/* line 76, ../sass/components/_main-nav.scss */
 .main-nav ul.mobile button {
   background-color: transparent;
   border: none;
 }
-/* line 77, ../sass/components/_main-nav.scss */
+/* line 82, ../sass/components/_main-nav.scss */
 .main-nav ul li {
   margin: 0;
   padding: 10px 0;
@@ -1985,7 +1971,7 @@ tr.selected td {
   float: left;
   text-align: center;
 }
-/* line 86, ../sass/components/_main-nav.scss */
+/* line 91, ../sass/components/_main-nav.scss */
 .main-nav ul li a {
   color: #000;
   text-decoration: none;
@@ -1994,25 +1980,27 @@ tr.selected td {
   border-bottom: 1px solid;
   border-color: transparent;
   transition: border-color 0.3s ease-in-out;
+  height: 14px;
+  min-height: 14px;
 }
-/* line 97, ../sass/components/_main-nav.scss */
+/* line 106, ../sass/components/_main-nav.scss */
 .main-nav ul li a:hover {
   border-color: black;
 }
-/* line 102, ../sass/components/_main-nav.scss */
+/* line 111, ../sass/components/_main-nav.scss */
 .main-nav ul li a.active {
   border-bottom: 1px solid;
 }
-/* line 108, ../sass/components/_main-nav.scss */
+/* line 117, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) {
   display: none;
 }
-/* line 110, ../sass/components/_main-nav.scss */
+/* line 119, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a {
   display: block;
   margin: 0 auto;
   width: 50px;
-  height: 50px;
+  height: 50px !important;
   border-radius: 50%;
   padding-bottom: 0px !important;
   background-color: transparent;
@@ -2021,27 +2009,27 @@ tr.selected td {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 123, ../sass/components/_main-nav.scss */
+/* line 132, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a:hover {
   border-color: transparent;
 }
-/* line 127, ../sass/components/_main-nav.scss */
+/* line 136, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a.active {
   border-bottom: 0px solid;
 }
 
 @media (min-width: 992px) {
-  /* line 138, ../sass/components/_main-nav.scss */
+  /* line 147, ../sass/components/_main-nav.scss */
   .main-menu-wrapper {
     display: block;
   }
 
-  /* line 143, ../sass/components/_main-nav.scss */
+  /* line 152, ../sass/components/_main-nav.scss */
   .mobile {
     display: none;
   }
 
-  /* line 149, ../sass/components/_main-nav.scss */
+  /* line 158, ../sass/components/_main-nav.scss */
   .main-nav ul li {
     margin: 0;
     padding: 25px 0;
@@ -2050,7 +2038,7 @@ tr.selected td {
     float: left;
     text-align: center;
   }
-  /* line 158, ../sass/components/_main-nav.scss */
+  /* line 167, ../sass/components/_main-nav.scss */
   .main-nav ul li a {
     color: #000;
     text-decoration: none;
@@ -2060,17 +2048,13 @@ tr.selected td {
     border-color: transparent;
     transition: border-color 0.3s ease-in-out;
   }
-  /* line 169, ../sass/components/_main-nav.scss */
+  /* line 178, ../sass/components/_main-nav.scss */
   .main-nav ul li a:hover {
     border-color: black;
   }
-  /* line 174, ../sass/components/_main-nav.scss */
+  /* line 183, ../sass/components/_main-nav.scss */
   .main-nav ul li a.active {
     border-bottom: 1px solid;
-  }
-  /* line 180, ../sass/components/_main-nav.scss */
-  .main-nav ul li:nth-child(4) {
-    display: block;
   }
 }
 /* line 1, ../sass/components/_footer.scss */
@@ -2275,18 +2259,20 @@ footer input[type="submit"]:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -55%);
   transform: translate(-50%, -55%);
 }
-/* line 57, ../sass/components/_detail.scss */
+/* line 58, ../sass/components/_detail.scss */
 .item .overlay {
   position: absolute;
   width: 20.25%;
   right: 6%;
   z-index: 90;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 66, ../sass/components/_detail.scss */
+/* line 68, ../sass/components/_detail.scss */
 .item .overlay h3 {
   margin-top: 0px;
   font-size: 32px;
@@ -2294,7 +2280,7 @@ footer input[type="submit"]:hover {
   font-family: DinBold;
   letter-spacing: 0.05em;
 }
-/* line 74, ../sass/components/_detail.scss */
+/* line 76, ../sass/components/_detail.scss */
 .item .overlay h4 {
   font-size: 16px;
   font-family: DinRegular;
@@ -2303,11 +2289,11 @@ footer input[type="submit"]:hover {
   margin-top: -1.1em;
   font-weight: 400;
 }
-/* line 83, ../sass/components/_detail.scss */
+/* line 85, ../sass/components/_detail.scss */
 .item .overlay p {
   font-size: 12px;
 }
-/* line 87, ../sass/components/_detail.scss */
+/* line 89, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
@@ -2403,15 +2389,21 @@ footer input[type="submit"]:hover {
     max-height: 90vh;
   }
 
-  /* line 92, ../sass/components/_responsive.scss */
+  /* line 93, ../sass/components/_responsive.scss */
+  .view-menu-open-huis .item .overlay {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* line 99, ../sass/components/_responsive.scss */
   #content > .item {
     height: auto;
   }
-  /* line 96, ../sass/components/_responsive.scss */
+  /* line 103, ../sass/components/_responsive.scss */
   #content > .item * {
     position: relative !important;
   }
-  /* line 100, ../sass/components/_responsive.scss */
+  /* line 107, ../sass/components/_responsive.scss */
   #content > .item img {
     height: auto !important;
     width: auto !important;
@@ -2419,9 +2411,10 @@ footer input[type="submit"]:hover {
     min-width: auto;
     top: 0;
     left: 0;
+    -webkit-transform: none;
     transform: none;
   }
-  /* line 112, ../sass/components/_responsive.scss */
+  /* line 120, ../sass/components/_responsive.scss */
   #content > .item .overlay {
     display: block;
     width: auto !important;
@@ -2430,27 +2423,28 @@ footer input[type="submit"]:hover {
     right: 0 !important;
     left: 0 !important;
     top: 0 !important;
+    -webkit-transform: none !important;
     transform: none !important;
   }
-  /* line 126, ../sass/components/_responsive.scss */
+  /* line 135, ../sass/components/_responsive.scss */
   #content > .item .overlay * {
     margin: 0;
   }
-  /* line 130, ../sass/components/_responsive.scss */
+  /* line 139, ../sass/components/_responsive.scss */
   #content > .item .overlay h3 {
     font-size: 8vmin;
     text-align: left !important;
     text-transform: uppercase;
     margin-top: 5px;
   }
-  /* line 137, ../sass/components/_responsive.scss */
+  /* line 146, ../sass/components/_responsive.scss */
   #content > .item .overlay h4 {
     font-size: 5vmin;
     line-height: 5.5vmin;
     margin: 0px 0 30px 0 !important;
     padding: 0px !important;
   }
-  /* line 144, ../sass/components/_responsive.scss */
+  /* line 153, ../sass/components/_responsive.scss */
   #content > .item .overlay p {
     letter-spacing: 0.025em;
     font-family: DinRegular;
@@ -2458,13 +2452,13 @@ footer input[type="submit"]:hover {
     line-height: 4.5vmin !important;
     margin-bottom: 20px;
   }
-  /* line 152, ../sass/components/_responsive.scss */
+  /* line 161, ../sass/components/_responsive.scss */
   #content > .item .overlay p br {
     display: none;
   }
 }
 @media screen and (max-width: 525px) {
-  /* line 162, ../sass/components/_responsive.scss */
+  /* line 171, ../sass/components/_responsive.scss */
   footer .col {
     width: 100%;
   }
