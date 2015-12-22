@@ -1991,10 +1991,6 @@ tr.selected td {
 .main-nav ul li a.active {
   border-bottom: 1px solid;
 }
-/* line 117, ../sass/components/_main-nav.scss */
-.main-nav ul li:nth-child(4) {
-  display: none;
-}
 /* line 119, ../sass/components/_main-nav.scss */
 .main-nav ul li:nth-child(4) a {
   display: block;
