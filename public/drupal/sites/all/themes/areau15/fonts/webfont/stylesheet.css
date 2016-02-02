@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'dinblackalt';
     src: url('dinblackalternate-webfont.eot');
     src: url('dinblackalternate-webfont.eot?#iefix') format('embedded-opentype'),
          url('dinblackalternate-webfont.woff2') format('woff2'),
@@ -18,7 +18,7 @@
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'dinbold';
     src: url('dinbold-webfont.eot');
     src: url('dinbold-webfont.eot?#iefix') format('embedded-opentype'),
          url('dinbold-webfont.woff2') format('woff2'),
@@ -48,7 +48,7 @@
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'dinlightalt';
     src: url('dinlightalternate-webfont.eot');
     src: url('dinlightalternate-webfont.eot?#iefix') format('embedded-opentype'),
          url('dinlightalternate-webfont.woff2') format('woff2'),
@@ -78,7 +78,7 @@
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'dinmediumalt';
     src: url('dinmediumalternate-webfont.eot');
     src: url('dinmediumalternate-webfont.eot?#iefix') format('embedded-opentype'),
          url('dinmediumalternate-webfont.woff2') format('woff2'),
@@ -108,7 +108,7 @@
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'dinregularalt';
     src: url('dinregularalternate-webfont.eot');
     src: url('dinregularalternate-webfont.eot?#iefix') format('embedded-opentype'),
          url('dinregularalternate-webfont.woff2') format('woff2'),

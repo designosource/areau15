@@ -1884,6 +1884,11 @@ tr.selected td {
   transform: translate(-50%, -80%);
 }
 
+/* line 154, ../sass/components/_front-page.scss */
+a > .item {
+  color: #2A2A2A;
+}
+
 /* line 3, ../sass/components/_main-nav.scss */
 .toolbar .main-nav.sticky {
   margin-top: 30px;
@@ -1991,41 +1996,23 @@ tr.selected td {
 .main-nav ul li a.active {
   border-bottom: 1px solid;
 }
-/* line 119, ../sass/components/_main-nav.scss */
-.main-nav ul li:nth-child(4) a {
-  display: block;
-  margin: 0 auto;
-  width: 50px;
-  height: 50px !important;
-  border-radius: 50%;
-  padding-bottom: 0px !important;
-  background-color: transparent;
-  color: transparent;
-  background-image: url("../images/AAlogo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 132, ../sass/components/_main-nav.scss */
-.main-nav ul li:nth-child(4) a:hover {
-  border-color: transparent;
-}
-/* line 136, ../sass/components/_main-nav.scss */
-.main-nav ul li:nth-child(4) a.active {
-  border-bottom: 0px solid;
+/* line 116, ../sass/components/_main-nav.scss */
+.main-nav ul li:nth-child(4) {
+  display: none;
 }
 
 @media (min-width: 992px) {
-  /* line 147, ../sass/components/_main-nav.scss */
+  /* line 125, ../sass/components/_main-nav.scss */
   .main-menu-wrapper {
     display: block;
   }
 
-  /* line 152, ../sass/components/_main-nav.scss */
+  /* line 130, ../sass/components/_main-nav.scss */
   .mobile {
     display: none;
   }
 
-  /* line 158, ../sass/components/_main-nav.scss */
+  /* line 136, ../sass/components/_main-nav.scss */
   .main-nav ul li {
     margin: 0;
     padding: 25px 0;
@@ -2034,7 +2021,7 @@ tr.selected td {
     float: left;
     text-align: center;
   }
-  /* line 167, ../sass/components/_main-nav.scss */
+  /* line 145, ../sass/components/_main-nav.scss */
   .main-nav ul li a {
     color: #000;
     text-decoration: none;
@@ -2044,13 +2031,39 @@ tr.selected td {
     border-color: transparent;
     transition: border-color 0.3s ease-in-out;
   }
-  /* line 178, ../sass/components/_main-nav.scss */
+  /* line 156, ../sass/components/_main-nav.scss */
   .main-nav ul li a:hover {
     border-color: black;
   }
-  /* line 183, ../sass/components/_main-nav.scss */
+  /* line 161, ../sass/components/_main-nav.scss */
   .main-nav ul li a.active {
     border-bottom: 1px solid;
+  }
+  /* line 167, ../sass/components/_main-nav.scss */
+  .main-nav ul li:nth-child(4) {
+    display: block;
+  }
+  /* line 170, ../sass/components/_main-nav.scss */
+  .main-nav ul li:nth-child(4) a {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px !important;
+    border-radius: 50%;
+    padding-bottom: 0px !important;
+    background-color: transparent;
+    color: transparent;
+    background-image: url("../images/AAlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 183, ../sass/components/_main-nav.scss */
+  .main-nav ul li:nth-child(4) a:hover {
+    border-color: transparent;
+  }
+  /* line 187, ../sass/components/_main-nav.scss */
+  .main-nav ul li:nth-child(4) a.active {
+    border-bottom: 0px solid;
   }
 }
 /* line 1, ../sass/components/_footer.scss */
@@ -2223,7 +2236,7 @@ footer input[type="submit"]:hover {
 .detail .image-wrapper .content-wrapper h3 {
   margin-top: 0px;
   font-size: 32px;
-  font-family: DinBold;
+  font-family: din-bold;
   letter-spacing: 0.075em;
   text-align: center;
   margin-bottom: 0.5em;
@@ -2255,8 +2268,8 @@ footer input[type="submit"]:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -55%);
-  transform: translate(-50%, -55%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /* line 58, ../sass/components/_detail.scss */
 .item .overlay {
@@ -2273,7 +2286,7 @@ footer input[type="submit"]:hover {
   margin-top: 0px;
   font-size: 32px;
   text-align: center;
-  font-family: DinBold;
+  font-family: dinbold;
   letter-spacing: 0.05em;
 }
 /* line 76, ../sass/components/_detail.scss */

@@ -18,7 +18,7 @@
 			h3 {
 				margin-top: 0px;
 				font-size: 32px;
-				font-family: DinBold;
+				font-family: din-bold;
 				letter-spacing: 0.075em;
 				text-align: center;
 				margin-bottom: 0.5em;
@@ -51,8 +51,8 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		-webkit-transform: translate(-50%, -55%);
-		transform: translate(-50%, -55%);
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
 	}
 
 	.overlay {
@@ -69,7 +69,7 @@
 			margin-top: 0px;
 			font-size: 32px;
 			text-align: center;
-			font-family: DinBold;
+			font-family: dinbold;
 			letter-spacing: 0.05em;
 		}
 

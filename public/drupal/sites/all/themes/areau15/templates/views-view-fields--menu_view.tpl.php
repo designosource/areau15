@@ -1,13 +1,14 @@
 <?php
 	$title = $row->_field_data['nid']['entity']->title;
-	$subtitle = $row->_field_data['nid']['entity']->field_subtitle['und'][0]['value'];;
+	$subtitle = $row->_field_data['nid']['entity']->field_subtitle['und'][0]['value'];
+	$target = $row->_field_data['nid']['entity']->field_target['und'][0]['value'];;
 	$description = $row->_field_data['nid']['entity']->body['und'][0]['value'];
 	$image = [
 		'path' => '/sites/default/files/menu/' . $row->_field_data['nid']['entity']->field_image['und'][0]['filename']
 	];
 ?>
 
-<a href="/<?php echo strToLower($title); ?>">
+<a href="/<?php echo strToLower($target); ?>">
 	<div class="item">
 	<?php if ($title !== "null"): ?>
 		<div class="overlay">
