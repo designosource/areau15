@@ -28,9 +28,14 @@
 				text-align: center;
 			}
 
-			p {
-				font-size: 10px;
-				line-height: 1.15;
+			.body{
+				line-height: 1.2;
+				& > *{
+					margin-bottom: 0.8em;
+				}
+				& span br{
+					line-height: 1;
+				}
 			}
 
 			&.top {
@@ -100,8 +105,9 @@
 			}
 		}
 
-		p {
+		.description {
 			font-size: 12px;
+			line-height: 1.33;
 		}
 
 		.footer {

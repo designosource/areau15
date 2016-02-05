@@ -2246,26 +2246,33 @@ footer input[type="submit"]:hover {
   text-align: center;
 }
 /* line 31, ../sass/components/_detail.scss */
-.detail .image-wrapper .content-wrapper p {
-  font-size: 10px;
-  line-height: 1.15;
+.detail .image-wrapper .content-wrapper .body {
+  line-height: 1.2;
+}
+/* line 33, ../sass/components/_detail.scss */
+.detail .image-wrapper .content-wrapper .body > * {
+  margin-bottom: 0.8em;
 }
 /* line 36, ../sass/components/_detail.scss */
+.detail .image-wrapper .content-wrapper .body span br {
+  line-height: 1;
+}
+/* line 41, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.top {
   top: 0%;
 }
-/* line 40, ../sass/components/_detail.scss */
+/* line 45, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
   bottom: 0%;
 }
 
-/* line 47, ../sass/components/_detail.scss */
+/* line 52, ../sass/components/_detail.scss */
 .item {
   position: relative;
   height: 1080px;
   overflow: hidden;
 }
-/* line 52, ../sass/components/_detail.scss */
+/* line 57, ../sass/components/_detail.scss */
 .item img {
   min-height: 1080px;
   min-width: 1920px;
@@ -2275,7 +2282,7 @@ footer input[type="submit"]:hover {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 62, ../sass/components/_detail.scss */
+/* line 67, ../sass/components/_detail.scss */
 .item .overlay {
   position: absolute;
   width: 20.25%;
@@ -2285,7 +2292,7 @@ footer input[type="submit"]:hover {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 72, ../sass/components/_detail.scss */
+/* line 77, ../sass/components/_detail.scss */
 .item .overlay h3 {
   font-size: 35px;
   text-align: center;
@@ -2293,7 +2300,7 @@ footer input[type="submit"]:hover {
   font-weight: normal;
   margin: 0px;
 }
-/* line 80, ../sass/components/_detail.scss */
+/* line 85, ../sass/components/_detail.scss */
 .item .overlay h4 {
   font-size: 14px;
   text-align: center;
@@ -2302,25 +2309,26 @@ footer input[type="submit"]:hover {
   font-weight: normal;
   margin: 0px;
 }
-/* line 88, ../sass/components/_detail.scss */
+/* line 93, ../sass/components/_detail.scss */
 .item .overlay h4.pull-up {
   font-family: dinregular;
   margin-top: -0.75em;
 }
-/* line 93, ../sass/components/_detail.scss */
+/* line 98, ../sass/components/_detail.scss */
 .item .overlay h4 b {
   font-weight: normal;
   font-family: dinbold;
 }
-/* line 98, ../sass/components/_detail.scss */
+/* line 103, ../sass/components/_detail.scss */
 .item .overlay h4.credit {
   margin-bottom: 4.5em;
 }
-/* line 103, ../sass/components/_detail.scss */
-.item .overlay p {
+/* line 108, ../sass/components/_detail.scss */
+.item .overlay .description {
   font-size: 12px;
+  line-height: 1.33;
 }
-/* line 107, ../sass/components/_detail.scss */
+/* line 113, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
