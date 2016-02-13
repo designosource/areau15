@@ -2074,20 +2074,22 @@ footer {
   box-sizing: border-box;
   position: relative;
 }
-/* line 9, ../sass/components/_footer.scss */
+/* line 8, ../sass/components/_footer.scss */
+footer .wrapper {
+  width: 1665.153px;
+}
+/* line 12, ../sass/components/_footer.scss */
 footer .col {
   box-sizing: border-box;
   margin: 15px 0;
   display: block;
   float: left;
   width: 33.333%;
+  height: 235.867px img;
+  height-width: 150px;
+  height-height: 150px;
 }
-/* line 18, ../sass/components/_footer.scss */
-footer .col img {
-  width: 150px;
-  height: 150px;
-}
-/* line 23, ../sass/components/_footer.scss */
+/* line 27, ../sass/components/_footer.scss */
 footer .col p {
   margin: 0;
   display: block;
@@ -2096,26 +2098,28 @@ footer .col p {
   letter-spacing: 0.075em;
   font-family: DinRegular;
 }
-/* line 31, ../sass/components/_footer.scss */
+/* line 35, ../sass/components/_footer.scss */
 footer .col p a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.75);
 }
-/* line 38, ../sass/components/_footer.scss */
+/* line 42, ../sass/components/_footer.scss */
 footer h3 {
   margin: 0;
-  padding: 15px 0;
+  padding: 0;
+  line-height: 23.042px;
+  font-size: 27.96px;
 }
-/* line 43, ../sass/components/_footer.scss */
+/* line 49, ../sass/components/_footer.scss */
 footer .address {
   margin-bottom: 10px;
 }
-/* line 45, ../sass/components/_footer.scss */
+/* line 51, ../sass/components/_footer.scss */
 footer .address p {
   margin: 0;
   font-size: 12px;
 }
-/* line 52, ../sass/components/_footer.scss */
+/* line 58, ../sass/components/_footer.scss */
 footer .contact a {
   margin: 0;
   font-size: 12px;
@@ -2123,49 +2127,54 @@ footer .contact a {
   color: #000;
   text-decoration: none;
 }
-/* line 61, ../sass/components/_footer.scss */
+/* line 67, ../sass/components/_footer.scss */
 footer input[type="text"] {
-  margin: 0 auto 10px;
+  margin: 0 auto 13.376px 0;
   display: block;
-  width: 60%;
-  padding: 5px;
+  width: 226.723px;
+  padding: 9.1775px;
   text-align: center;
+  line-height: 12.47pt;
+  font-size: 10.4pt;
   text-transform: uppercase;
   font-family: DinRegular;
   background-color: rgba(255, 255, 255, 0.25);
   border: none;
   transition: background-color 0.3s ease-in-out;
 }
-/* line 74, ../sass/components/_footer.scss */
+/* line 82, ../sass/components/_footer.scss */
 footer input[type="text"]:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 79, ../sass/components/_footer.scss */
+/* line 87, ../sass/components/_footer.scss */
 footer input[type="submit"] {
-  margin: 0 auto 10px;
+  margin: 0 auto 13.376px 0;
   display: block;
-  width: 60%;
-  padding: 5px;
+  width: 226.723px;
+  padding: 9.1775px;
   text-align: center;
+  line-height: 12.47pt;
+  font-size: 10.4pt;
   text-transform: uppercase;
-  font-family: DinRegular;
+  font-family: DinBold;
   background-color: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(80, 80, 80, 0.25);
   transition: background-color 0.3s ease-in-out;
 }
-/* line 92, ../sass/components/_footer.scss */
+/* line 102, ../sass/components/_footer.scss */
 footer input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 @media (min-width: 992px) {
-  /* line 99, ../sass/components/_footer.scss */
+  /* line 109, ../sass/components/_footer.scss */
   footer {
-    margin-top: -275px;
+    margin-top: -296.322px;
   }
-  /* line 102, ../sass/components/_footer.scss */
+  /* line 112, ../sass/components/_footer.scss */
   footer .col {
     margin-top: 0px;
+    margin-bottom: 60.455px;
   }
 }
 /* generic classes

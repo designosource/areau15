@@ -4,7 +4,10 @@ footer {
 	text-transform: uppercase;
 	box-sizing: border-box;
 	position: relative;
-	//margin-top: -334px; //STATIC
+
+	.wrapper{
+		width: 1665.153px
+	}
 
 	.col {
 		box-sizing: border-box;
@@ -14,6 +17,7 @@ footer {
 
 		float: left;
 		width: 33.333%;
+		height: 235.867px
 
 		img {
 			width: 150px;
@@ -37,7 +41,9 @@ footer {
 
 	h3 {
 		margin: 0;
-		padding: 15px 0;
+		padding: 0;
+		line-height: 23.042px;
+		font-size: 27.96px
 	}
 	
 	.address {
@@ -59,11 +65,13 @@ footer {
 	}
 
 	input[type="text"] {
-		margin: 0 auto 10px;
+		margin: 0 auto 13.376px 0;
 		display: block;
-		width: 60%;
-		padding: 5px;
+		width: 226.723px;
+		padding: 9.1775px;
 		text-align: center;
+		line-height: 12.47pt;
+		font-size: 10.4pt;
 		text-transform: uppercase;
 		font-family: DinRegular;
 		background-color: rgba(255,255,255,0.25);
@@ -77,13 +85,15 @@ footer {
 	}
 
 	input[type="submit"] {
-		margin: 0 auto 10px;
+		margin: 0 auto 13.376px 0;
 		display: block;
-		width: 60%;
-		padding: 5px;
-		text-align: center; 
+		width: 226.723px;
+		padding: 9.1775px;
+		text-align: center;
+		line-height: 12.47pt;
+		font-size: 10.4pt;
 		text-transform: uppercase;
-		font-family: DinRegular;
+		font-family: DinBold;
 		background-color: rgba(255,255,255,0.25);
 		border: 1px solid rgba(80,80,80,0.25);
 
@@ -97,10 +107,11 @@ footer {
 
 @media(min-width: 992px) {
 	footer {
-		margin-top: -275px; //STATIC
+		margin-top: -296.322px; //STATIC
 
 		.col {
 			margin-top: 0px;
+			margin-bottom: 60.455px;
 		}
 	}
 }
