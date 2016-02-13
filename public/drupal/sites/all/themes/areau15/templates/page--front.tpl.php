@@ -94,18 +94,18 @@ if($is_front){
             <div class="col">
                 <h3>Prijs-Project-Info</h3>
                 <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
-                <p>Coming Soon</p>
+                <p class="bottom-line webshop">Coming Soon</p>
             </div>
             <div class="col">
                 <h3>Contact</h3>
                 <div class="address">
-                    <p>Mechelsesteenweg 87</p>
-                    <p>2018 Antwerpen</p>
-                    <p>België</p>
+                    <p class="street">Mechelsesteenweg 87</p>
+                    <p class="province">2018 Antwerpen</p>
+                    <p class="country">België</p>
                 </div>
                 <div class="contact">
-                    <a href="info@areau.be">info@area.be</a>
-                    <a href="tel:032261712">+32 [0]3 226</a>
+                    <a class="mail" href="info@areau.be">info@areau.be</a>
+                    <a class="phone" href="tel:032261712">+32 (0)3 226 17 12</a>
                 </div>
             </div>
             <div class="col">
@@ -113,9 +113,9 @@ if($is_front){
                 <form action="POST">
                     <input type="text" name="name" id="name" placeholder="Naam">
                     <input type="text" name="email" id="email" placeholder="E-Mail">
-                    <input type="submit" name="send" value="Verstuur" id="">
+                    <input type="submit" name="send" value="Verstuur" id="submit">
                 </form>
-                <p><b>Volg ons op </b><a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a> / <a href="https://vimeo.com/user37928837">Vimeo</a></p>
+                <p class="bottom-line social">Volg ons op <a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a> / <a href="https://vimeo.com/user37928837">Vimeo</a></p>
             </div>
         </div>
     </footer>

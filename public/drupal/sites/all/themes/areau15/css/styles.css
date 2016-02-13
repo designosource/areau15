@@ -2076,20 +2076,24 @@ footer {
 }
 /* line 8, ../sass/components/_footer.scss */
 footer .wrapper {
-  width: 1665.153px;
+  max-width: 1665.153px;
 }
 /* line 12, ../sass/components/_footer.scss */
 footer .col {
   box-sizing: border-box;
-  margin: 15px 0;
+  margin: 45px 0;
   display: block;
   float: left;
-  width: 33.333%;
-  height: 235.867px img;
-  height-width: 150px;
-  height-height: 150px;
+  width: 100%;
+  height: 235.867px;
 }
-/* line 27, ../sass/components/_footer.scss */
+/* line 22, ../sass/components/_footer.scss */
+footer .col img {
+  width: auto;
+  height: 117.575px;
+  margin-bottom: 47.661px;
+}
+/* line 28, ../sass/components/_footer.scss */
 footer .col p {
   margin: 0;
   display: block;
@@ -2098,38 +2102,65 @@ footer .col p {
   letter-spacing: 0.075em;
   font-family: DinRegular;
 }
-/* line 35, ../sass/components/_footer.scss */
+/* line 36, ../sass/components/_footer.scss */
 footer .col p a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.75);
+  font-family: dinlight;
+  color: rgba(0, 0, 0, 0.5);
 }
-/* line 42, ../sass/components/_footer.scss */
+/* line 44, ../sass/components/_footer.scss */
 footer h3 {
-  margin: 0;
+  margin: 0 auto 32.865px auto;
   padding: 0;
-  line-height: 23.042px;
-  font-size: 27.96px;
+  line-height: 27.96pt;
+  font-size: 21.29pt;
+  white-space: nowrap;
 }
-/* line 49, ../sass/components/_footer.scss */
+/* line 52, ../sass/components/_footer.scss */
 footer .address {
   margin-bottom: 10px;
 }
-/* line 51, ../sass/components/_footer.scss */
+/* line 54, ../sass/components/_footer.scss */
 footer .address p {
   margin: 0;
-  font-size: 12px;
+  font-size: 11.39pt;
+  line-height: 13.66pt;
 }
-/* line 58, ../sass/components/_footer.scss */
+/* line 59, ../sass/components/_footer.scss */
+footer .address p.street {
+  padding-top: 1.552px;
+}
+/* line 63, ../sass/components/_footer.scss */
+footer .address p.province {
+  padding-top: 5.755px;
+}
+/* line 67, ../sass/components/_footer.scss */
+footer .address p.country {
+  padding-top: 12.692px;
+}
+/* line 74, ../sass/components/_footer.scss */
 footer .contact a {
   margin: 0;
-  font-size: 12px;
   display: block;
   color: #000;
   text-decoration: none;
 }
-/* line 67, ../sass/components/_footer.scss */
+/* line 79, ../sass/components/_footer.scss */
+footer .contact a.mail {
+  font-size: 11.69pt;
+  line-height: 14.03pt;
+  padding-top: 32.288px;
+}
+/* line 84, ../sass/components/_footer.scss */
+footer .contact a.phone {
+  font-size: 10.31pt;
+  line-height: 12.37pt;
+  padding-top: 3.159px;
+  opacity: 0.7;
+}
+/* line 93, ../sass/components/_footer.scss */
 footer input[type="text"] {
-  margin: 0 auto 13.376px 0;
+  margin: 0 auto 13.376px auto;
   display: block;
   width: 226.723px;
   padding: 9.1775px;
@@ -2142,13 +2173,13 @@ footer input[type="text"] {
   border: none;
   transition: background-color 0.3s ease-in-out;
 }
-/* line 82, ../sass/components/_footer.scss */
+/* line 108, ../sass/components/_footer.scss */
 footer input[type="text"]:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 87, ../sass/components/_footer.scss */
+/* line 113, ../sass/components/_footer.scss */
 footer input[type="submit"] {
-  margin: 0 auto 13.376px 0;
+  margin: 0 auto 13.376px auto;
   display: block;
   width: 226.723px;
   padding: 9.1775px;
@@ -2156,25 +2187,53 @@ footer input[type="submit"] {
   line-height: 12.47pt;
   font-size: 10.4pt;
   text-transform: uppercase;
-  font-family: DinBold;
+  font-family: DinRegular;
   background-color: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(80, 80, 80, 0.25);
   transition: background-color 0.3s ease-in-out;
 }
-/* line 102, ../sass/components/_footer.scss */
+/* line 128, ../sass/components/_footer.scss */
 footer input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
+/* line 134, ../sass/components/_footer.scss */
+footer .bottom-line.social {
+  font-family: DinRegular;
+}
+/* line 137, ../sass/components/_footer.scss */
+footer .bottom-line.social a {
+  color: black;
+  opacity: 0.5;
+  font-family: dinlight;
+}
 
 @media (min-width: 992px) {
-  /* line 109, ../sass/components/_footer.scss */
+  /* line 147, ../sass/components/_footer.scss */
   footer {
     margin-top: -296.322px;
   }
-  /* line 112, ../sass/components/_footer.scss */
+  /* line 150, ../sass/components/_footer.scss */
   footer .col {
+    width: 33.333%;
     margin-top: 0px;
     margin-bottom: 60.455px;
+  }
+  /* line 156, ../sass/components/_footer.scss */
+  footer .bottom-line {
+    position: absolute !important;
+    width: 555.051px;
+    max-width: 33.333%;
+    bottom: 60.455px;
+  }
+  /* line 161, ../sass/components/_footer.scss */
+  footer .bottom-line.social {
+    font-family: DinRegular;
+  }
+  /* line 164, ../sass/components/_footer.scss */
+  footer .bottom-line.social a {
+    color: black;
+    opacity: 0.5;
+    font-family: dinlight;
   }
 }
 /* generic classes

@@ -6,22 +6,23 @@ footer {
 	position: relative;
 
 	.wrapper{
-		width: 1665.153px
+		max-width: 1665.153px;
 	}
 
 	.col {
 		box-sizing: border-box;
-		margin: 15px 0;
+		margin: 45px 0;
 
 		display: block;
 
 		float: left;
-		width: 33.333%;
-		height: 235.867px
+		width: 100%;
+		height: 235.867px;
 
 		img {
-			width: 150px;
-			height: 150px;
+			width: auto;
+			height: 117.575px;
+			margin-bottom: 47.661px;
 		}
 
 		p {
@@ -34,38 +35,63 @@ footer {
 
 			a{
 				text-decoration: none;
-				color: rgba(0,0,0,0.75);
+				font-family: dinlight;
+				color: rgba(0,0,0,0.5);
 			}
 		}
 	}
 
 	h3 {
-		margin: 0;
+		margin: 0 auto 32.865px auto;
 		padding: 0;
-		line-height: 23.042px;
-		font-size: 27.96px
+		line-height: 27.96pt;
+		font-size: 21.29pt;
+		white-space: nowrap;
 	}
 	
 	.address {
 		margin-bottom: 10px;
 		p {
 			margin: 0;
-			font-size: 12px;
+			font-size: 11.39pt;
+			line-height: 13.66pt;
+
+			&.street{
+				padding-top: 1.552px;
+			}
+
+			&.province{
+				padding-top: 5.755px;
+			}
+
+			&.country{
+				padding-top: 12.692px;
+			}
 		}
 	}
 
 	.contact {
 		a {
 			margin: 0;
-			font-size: 12px;
 			display: block;
 			color: #000;
 			text-decoration: none;
+			&.mail{
+				font-size: 11.69pt;
+				line-height: 14.03pt;
+				padding-top: 32.288px;
+			}
+			&.phone{
+				font-size: 10.31pt;
+				line-height: 12.37pt;
+				padding-top: 3.159px;
+				opacity: 0.7;
+			}
 		}
 	}
 
 	input[type="text"] {
-		margin: 0 auto 13.376px 0;
+		margin: 0 auto 13.376px auto;
 		display: block;
 		width: 226.723px;
 		padding: 9.1775px;
@@ -85,7 +111,7 @@ footer {
 	}
 
 	input[type="submit"] {
-		margin: 0 auto 13.376px 0;
+		margin: 0 auto 13.376px auto;
 		display: block;
 		width: 226.723px;
 		padding: 9.1775px;
@@ -93,7 +119,7 @@ footer {
 		line-height: 12.47pt;
 		font-size: 10.4pt;
 		text-transform: uppercase;
-		font-family: DinBold;
+		font-family: DinRegular;
 		background-color: rgba(255,255,255,0.25);
 		border: 1px solid rgba(80,80,80,0.25);
 
@@ -103,6 +129,18 @@ footer {
 			background-color: rgba(255,255,255,0.75);
 		}
 	}
+
+	.bottom-line{
+		&.social{
+			font-family: DinRegular;
+
+			& a{
+				color: black;
+				opacity: 0.5;
+				font-family: dinlight;
+			}
+		}
+	}
 }
 
 @media(min-width: 992px) {
@@ -110,8 +148,25 @@ footer {
 		margin-top: -296.322px; //STATIC
 
 		.col {
+			width: 33.333%;
 			margin-top: 0px;
 			margin-bottom: 60.455px;
+		}
+
+		.bottom-line{
+			position:absolute !important;
+			width: 555.051px;
+			max-width: 33.333%;
+			bottom: 60.455px;
+			&.social{
+				font-family: DinRegular;
+
+				& a{
+					color: black;
+					opacity: 0.5;
+					font-family: dinlight;
+				}
+			}
 		}
 	}
 }
