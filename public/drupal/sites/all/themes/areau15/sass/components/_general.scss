@@ -27,3 +27,12 @@
 		}
 	}
 }
+
+#pause-music {
+    top: 3%;
+    position: absolute;
+    right: 2%;
+        z-index: 5;
+    max-width: 25px;
+    cursor: pointer;
+}

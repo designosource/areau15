@@ -89,7 +89,7 @@
 		opacity: 0;
 		position: absolute;
 
-		width: 50%;
+		width: 24.114%;
 		min-height: 60%;
 
 		top: 50%;
@@ -113,11 +113,12 @@
 			letter-spacing: 0.05em;
 			text-transform: uppercase;
 			margin-bottom: 0.5em;
+			font-size: 18.675pt;
 		}
 
 		h4 {
 			padding: 0 30px;
-			font-size: 16px;
+			font-size: 11.715pt;
 			font-family: DinRegular;
 			letter-spacing: 0.075em;
 			text-transform: uppercase;
@@ -137,6 +138,9 @@
 			width: 100%;
 			box-sizing: border-box;
 			padding: 20px;
+			.line2 {
+				line-height: 1;
+			}
 		}
 	}
 }

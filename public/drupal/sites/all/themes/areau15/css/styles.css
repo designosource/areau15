@@ -1741,6 +1741,16 @@ tr.selected td {
   letter-spacing: 2px;
 }
 
+/* line 31, ../sass/components/_general.scss */
+#pause-music {
+  top: 3%;
+  position: absolute;
+  right: 2%;
+  z-index: 5;
+  max-width: 25px;
+  cursor: pointer;
+}
+
 /* line 1, ../sass/components/_front-page.scss */
 .block {
   margin: 0;
@@ -1832,7 +1842,7 @@ tr.selected td {
 .view .item .overlay {
   opacity: 0;
   position: absolute;
-  width: 50%;
+  width: 24.114%;
   min-height: 60%;
   top: 50%;
   left: 50%;
@@ -1851,24 +1861,25 @@ tr.selected td {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 0.5em;
+  font-size: 18.675pt;
 }
-/* line 118, ../sass/components/_front-page.scss */
+/* line 119, ../sass/components/_front-page.scss */
 .view .item .overlay h4 {
   padding: 0 30px;
-  font-size: 16px;
+  font-size: 11.715pt;
   font-family: DinRegular;
   letter-spacing: 0.075em;
   text-transform: uppercase;
   margin-top: -1.1em;
   font-weight: 400;
 }
-/* line 128, ../sass/components/_front-page.scss */
+/* line 129, ../sass/components/_front-page.scss */
 .view .item .overlay .description {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
 }
-/* line 134, ../sass/components/_front-page.scss */
+/* line 135, ../sass/components/_front-page.scss */
 .view .item .overlay .footer {
   bottom: 0;
   position: absolute;
@@ -1876,15 +1887,19 @@ tr.selected td {
   box-sizing: border-box;
   padding: 20px;
 }
+/* line 141, ../sass/components/_front-page.scss */
+.view .item .overlay .footer .line2 {
+  line-height: 1;
+}
 
-/* line 146, ../sass/components/_front-page.scss */
+/* line 150, ../sass/components/_front-page.scss */
 .view-menu-open-huis .item .overlay {
   min-height: 45%;
   -webkit-transform: translate(-50%, -80%);
   transform: translate(-50%, -80%);
 }
 
-/* line 154, ../sass/components/_front-page.scss */
+/* line 158, ../sass/components/_front-page.scss */
 a > .item {
   color: #2A2A2A;
 }
@@ -2309,38 +2324,42 @@ footer .bottom-line.social a {
   margin: 0px;
 }
 /* line 26, ../sass/components/_detail.scss */
+.detail .image-wrapper .content-wrapper p, .detail .image-wrapper .content-wrapper span, .detail .image-wrapper .content-wrapper div {
+  line-height: 1.15em;
+}
+/* line 30, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper h4 {
   font-size: 16px;
   text-align: center;
 }
-/* line 31, ../sass/components/_detail.scss */
+/* line 35, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper .body {
   line-height: 1.2;
 }
-/* line 33, ../sass/components/_detail.scss */
+/* line 37, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper .body > * {
   margin-bottom: 0.8em;
 }
-/* line 36, ../sass/components/_detail.scss */
+/* line 40, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper .body span br {
   line-height: 1;
 }
-/* line 41, ../sass/components/_detail.scss */
+/* line 45, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.top {
   top: 0%;
 }
-/* line 45, ../sass/components/_detail.scss */
+/* line 49, ../sass/components/_detail.scss */
 .detail .image-wrapper .content-wrapper.bottom {
   bottom: 0%;
 }
 
-/* line 52, ../sass/components/_detail.scss */
+/* line 56, ../sass/components/_detail.scss */
 .item {
   position: relative;
   height: 1080px;
   overflow: hidden;
 }
-/* line 57, ../sass/components/_detail.scss */
+/* line 61, ../sass/components/_detail.scss */
 .item img {
   min-height: 1080px;
   min-width: 1920px;
@@ -2350,7 +2369,7 @@ footer .bottom-line.social a {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 67, ../sass/components/_detail.scss */
+/* line 71, ../sass/components/_detail.scss */
 .item .overlay {
   position: absolute;
   width: 20.25%;
@@ -2360,7 +2379,7 @@ footer .bottom-line.social a {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 77, ../sass/components/_detail.scss */
+/* line 81, ../sass/components/_detail.scss */
 .item .overlay h3 {
   font-size: 35px;
   text-align: center;
@@ -2368,7 +2387,7 @@ footer .bottom-line.social a {
   font-weight: normal;
   margin: 0px;
 }
-/* line 85, ../sass/components/_detail.scss */
+/* line 89, ../sass/components/_detail.scss */
 .item .overlay h4 {
   font-size: 14px;
   text-align: center;
@@ -2377,32 +2396,40 @@ footer .bottom-line.social a {
   font-weight: normal;
   margin: 0px;
 }
-/* line 93, ../sass/components/_detail.scss */
+/* line 97, ../sass/components/_detail.scss */
 .item .overlay h4.pull-up {
   font-family: dinregular;
   margin-top: -0.75em;
 }
-/* line 98, ../sass/components/_detail.scss */
+/* line 102, ../sass/components/_detail.scss */
 .item .overlay h4 b {
   font-weight: normal;
   font-family: dinbold;
 }
-/* line 103, ../sass/components/_detail.scss */
+/* line 107, ../sass/components/_detail.scss */
 .item .overlay h4.credit {
   margin-bottom: 4.5em;
 }
-/* line 108, ../sass/components/_detail.scss */
+/* line 112, ../sass/components/_detail.scss */
 .item .overlay .description {
   font-size: 12px;
   line-height: 1.33;
 }
-/* line 113, ../sass/components/_detail.scss */
+/* line 117, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
+}
+/* line 125, ../sass/components/_detail.scss */
+.item .overlay .centralizer {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1024px) {

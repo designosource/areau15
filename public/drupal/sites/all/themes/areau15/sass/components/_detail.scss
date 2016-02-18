@@ -23,6 +23,10 @@
 				margin: 0px;
 			}
 			
+			p, span, div{
+				line-height: 1.15em;
+			}
+
 			h4 {
 				font-size: 16px;
 				text-align: center;
@@ -116,6 +120,14 @@
 			width: 100%;
 			box-sizing: border-box;
 			padding: 20px;
+		}
+
+		.centralizer{
+			top:50%;
+			left:50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%,-50%);
 		}
 	}
 }
