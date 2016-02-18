@@ -48,6 +48,21 @@ $(document).ready(function() {
         $("#primary-menu").slideToggle();
     });
 
+    // MUSIC PAUZE AND PLAY
+  	//$('#music_play').hide();
+  	$('#pause-music').click(function(e) {
+      	if ($('#music')[0].paused == false) {
+          	$('#music')[0].pause();
+          	
+          	$('#handlers').attr('src','sites/all/themes/areau15/images/playbtn.png');
+  		} else {
+          	$('#music')[0].play();
+          	
+          	$('#handlers').attr('src','sites/all/themes/areau15/images/pauzebtn.png');
+      	}
+	
+	});
+
 });
 
 
