@@ -122,12 +122,12 @@ if($is_front){
             </div>
             <div class="col">
                 <h3>'Op de hoogte blijven'</h3>
-                <form action="POST">
+                <form action="http://areau.us7.list-manage.com/subscribe/post?u=a8c08f548f562436553aeb031&id=7bbb23bcd8" method="POST">
                     <input type="text" name="name" id="name" placeholder="Naam">
-                    <input type="text" name="email" id="email" placeholder="E-Mail">
+                    <input value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-MAIL" required="" type="text">
                     <input type="submit" name="send" value="Verstuur" id="submit">
                 </form>
-                <p class="bottom-line social">Volg ons op <a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a> / <a href="https://vimeo.com/user37928837">Vimeo</a></p>
+                <p class="bottom-line social">Volg ons <a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a>&nbsp;/&nbsp;<a href="https://vimeo.com/user37928837">Vimeo</a></p>
             </div>
         </div>
     </footer>
