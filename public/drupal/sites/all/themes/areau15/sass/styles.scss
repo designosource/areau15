@@ -24,7 +24,8 @@
 @import "layouts/responsive";
 
 /* Component (SMACSS module) rules */
-@import "components/_fonts";
+@import "../fonts/webfont/stylesheet.css";
+// @import "components/_fonts";
 @import "components/misc";
 @import "components/_general.scss";
 @import "components/_front-page.scss";
@@ -32,6 +33,8 @@
 @import "components/_footer.scss";
 @import "components/_typography.scss";
 @import "components/_detail.scss";
+@import "components/_responsive.scss";
+@import "components/_responsive-utils.scss";
 
 // Optionally, add your own components here.
 @import "print";
@@ -39,12 +42,3 @@
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
-
-#pause-music {
-    top: 3%;
-    position: absolute;
-    right: 2%;
-        z-index: 5;
-    max-width: 25px;
-    cursor: pointer;
-}

@@ -41,21 +41,9 @@ if($is_front){
 
         <?php endif; ?>
 
-        <div id="pause-music">
-			<img id="handlers" src="sites/all/themes/areau15/images/pauzebtn.png" alt="">
-		</div>
-
-		<div id="audio" style="display:none">
-	    	<audio id="music" controls autoplay>
-	     		<source src="sites/all/themes/areau15/videos/sound.m4a" type="audio/mp4" />
-	    	</audio>
-	    </div>  
-
         <video autoplay="" loop="" class="video">
-          <source src="sites/all/themes/areau15/videos/intro.mp4" type="video/mp4">
-          <source src="sites/all/themes/areau15/videos/intro.ogv" type="video/ogg">
-          <source src="sites/all/themes/areau15/videos/intro.webm" type="video/webm">
-        </video>
+            <source src="sites/all/themes/areau15/videos/intro.mp4" type="video/mp4">
+         </video>
     </section>
 
     <section class="main-nav">

@@ -16,15 +16,26 @@
 			right: 6%;
 	
 			h3 {
-				font-family: DinBold;
+				font-size: 18px;
+				font-family: dinlight;
 				letter-spacing: 0.075em;
 				text-align: center;
-				margin-bottom: 0.5em;
+				margin: 0px;
+			}
+			
+			h4 {
+				font-size: 16px;
+				text-align: center;
 			}
 
-			p {
-				font-size: 10px;
-				line-height: 1.15;
+			.body{
+				line-height: 1.2;
+				& > *{
+					margin-bottom: 0.8em;
+				}
+				& span br{
+					line-height: 1;
+				}
 			}
 
 			&.top {
@@ -40,7 +51,7 @@
 
 .item {
 	position: relative;
-	height: 90vh;
+	height: 1080px;
 	overflow: hidden;
 
 	img {
@@ -49,21 +60,54 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -55%);
-		z-index: -1;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
 	}
 
 	.overlay {
 		position: absolute;
 		width: 20.25%;
 		right: 6%;
+		z-index: 90;
+
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
 
 		h3 {
+			font-size: 35px;
 			text-align: center;
+			font-family: dinmedium;
+			font-weight: normal;
+			margin: 0px;
 		}
 
-		p {
+		h4 {
+			font-size: 14px;
+			text-align: center;
+			letter-spacing: 0.075em;
+			font-family: "Times New Roman";
+			font-weight: normal;
+			margin: 0px;
+
+			&.pull-up{
+				font-family: dinregular;
+				margin-top: -0.75em;
+			}
+
+			& b{
+				font-weight: normal;
+				font-family: dinbold;
+			}
+
+			&.credit{
+				margin-bottom: 4.5em;
+			}
+		}
+
+		.description {
 			font-size: 12px;
+			line-height: 1.33;
 		}
 
 		.footer {

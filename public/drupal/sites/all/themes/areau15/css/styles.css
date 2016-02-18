@@ -2956,12 +2956,3 @@ footer .bottom-line.social a {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
-
-#pause-music {
-    top: 3%;
-    position: absolute;
-    right: 2%;
-        z-index: 5;
-    max-width: 25px;
-    cursor: pointer;
-}

@@ -36,7 +36,7 @@ footer{
 */
 .overlay{
 	& h3{
-		@extend .fiftyspace;
+		@extend .seventyfivespace;
 		font-weight: 600;
 		font-size: 24px;
 	}
@@ -46,7 +46,7 @@ footer{
 		font-size: 18px;
 	}
 	& .description{
-		@extend .fiftyspace;
+		@extend .seventyfivespace;
 		font-size: 12px;
 	}
 }
