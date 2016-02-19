@@ -12,9 +12,11 @@
 	<div class="item">
 	<?php if ($title !== "null"): ?>
 		<div class="overlay">
-			<h3><?php echo($title); ?></h3>
-			<h4><?php echo($subtitle); ?></h4>
-			<div class="description"><?php echo($description); ?></div>
+			<div class="centralizer">
+				<h3><?php echo($title); ?></h3>
+				<h4><?php echo($subtitle); ?></h4>
+				<div class="description"><?php echo($description); ?></div>
+			</div>
 			<div class="footer areau-credits">
 				<p class="line2">out-and-out the inside</p>
 				<p class="line1">Design - Interior - Services</p>

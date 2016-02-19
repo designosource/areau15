@@ -1857,29 +1857,26 @@ tr.selected td {
 /* line 110, ../sass/components/_front-page.scss */
 .view .item .overlay h3 {
   padding: 0 30px;
-  font-family: DinRegular;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 0.5em;
   font-size: 18.675pt;
 }
-/* line 119, ../sass/components/_front-page.scss */
+/* line 118, ../sass/components/_front-page.scss */
 .view .item .overlay h4 {
   padding: 0 30px;
   font-size: 11.715pt;
-  font-family: DinRegular;
   letter-spacing: 0.075em;
-  text-transform: uppercase;
   margin-top: -1.1em;
   font-weight: 400;
 }
-/* line 129, ../sass/components/_front-page.scss */
+/* line 126, ../sass/components/_front-page.scss */
 .view .item .overlay .description {
   padding: 0 30px;
   text-decoration: uppercase;
   font-family: DinRegular;
 }
-/* line 135, ../sass/components/_front-page.scss */
+/* line 132, ../sass/components/_front-page.scss */
 .view .item .overlay .footer {
   bottom: 0;
   position: absolute;
@@ -1887,19 +1884,19 @@ tr.selected td {
   box-sizing: border-box;
   padding: 20px;
 }
-/* line 141, ../sass/components/_front-page.scss */
+/* line 138, ../sass/components/_front-page.scss */
 .view .item .overlay .footer .line2 {
   line-height: 1;
 }
 
-/* line 150, ../sass/components/_front-page.scss */
+/* line 147, ../sass/components/_front-page.scss */
 .view-menu-open-huis .item .overlay {
   min-height: 45%;
   -webkit-transform: translate(-50%, -80%);
   transform: translate(-50%, -80%);
 }
 
-/* line 158, ../sass/components/_front-page.scss */
+/* line 155, ../sass/components/_front-page.scss */
 a > .item {
   color: #2A2A2A;
 }
@@ -2101,14 +2098,15 @@ footer .col {
   float: left;
   width: 100%;
   height: 235.867px;
+  color: #393839;
 }
-/* line 22, ../sass/components/_footer.scss */
+/* line 24, ../sass/components/_footer.scss */
 footer .col img {
   width: auto;
   height: 117.575px;
   margin-bottom: 47.661px;
 }
-/* line 28, ../sass/components/_footer.scss */
+/* line 30, ../sass/components/_footer.scss */
 footer .col p {
   margin: 0;
   display: block;
@@ -2117,64 +2115,84 @@ footer .col p {
   letter-spacing: 0.075em;
   font-family: DinRegular;
 }
-/* line 36, ../sass/components/_footer.scss */
+/* line 38, ../sass/components/_footer.scss */
 footer .col p a {
   text-decoration: none;
   font-family: dinlight;
   color: rgba(0, 0, 0, 0.5);
 }
-/* line 44, ../sass/components/_footer.scss */
+/* line 45, ../sass/components/_footer.scss */
+footer .col .webshop {
+  text-transform: none;
+}
+/* line 48, ../sass/components/_footer.scss */
+footer .col .webshop a {
+  color: #393839;
+}
+/* line 52, ../sass/components/_footer.scss */
+footer .col .webshop b {
+  font-weight: 400;
+  font-family: dinmedium;
+}
+/* line 59, ../sass/components/_footer.scss */
 footer h3 {
   margin: 0 auto 32.865px auto;
   padding: 0;
   line-height: 27.96pt;
   font-size: 21.29pt;
   white-space: nowrap;
+  color: #393839;
+  font-family: dinmedium;
+  font-weight: 400;
 }
-/* line 52, ../sass/components/_footer.scss */
+/* line 70, ../sass/components/_footer.scss */
 footer .address {
   margin-bottom: 10px;
 }
-/* line 54, ../sass/components/_footer.scss */
+/* line 72, ../sass/components/_footer.scss */
 footer .address p {
   margin: 0;
   font-size: 11.39pt;
   line-height: 13.66pt;
 }
-/* line 59, ../sass/components/_footer.scss */
+/* line 77, ../sass/components/_footer.scss */
 footer .address p.street {
   padding-top: 1.552px;
 }
-/* line 63, ../sass/components/_footer.scss */
+/* line 81, ../sass/components/_footer.scss */
 footer .address p.province {
   padding-top: 5.755px;
 }
-/* line 67, ../sass/components/_footer.scss */
+/* line 85, ../sass/components/_footer.scss */
 footer .address p.country {
   padding-top: 12.692px;
 }
-/* line 74, ../sass/components/_footer.scss */
+/* line 92, ../sass/components/_footer.scss */
 footer .contact a {
+  color: #393839;
   margin: 0;
   display: block;
-  color: #000;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
-/* line 79, ../sass/components/_footer.scss */
+/* line 99, ../sass/components/_footer.scss */
 footer .contact a.mail {
   font-size: 11.69pt;
   line-height: 14.03pt;
   padding-top: 32.288px;
 }
-/* line 84, ../sass/components/_footer.scss */
+/* line 104, ../sass/components/_footer.scss */
 footer .contact a.phone {
   font-size: 10.31pt;
   line-height: 12.37pt;
   padding-top: 3.159px;
-  opacity: 0.7;
 }
-/* line 93, ../sass/components/_footer.scss */
-footer input[type="text"] {
+/* line 109, ../sass/components/_footer.scss */
+footer .contact a:hover {
+  color: black;
+}
+/* line 115, ../sass/components/_footer.scss */
+footer input[type="text"], footer input[type="email"] {
   margin: 0 auto 13.376px auto;
   display: block;
   width: 226.723px;
@@ -2188,11 +2206,11 @@ footer input[type="text"] {
   border: none;
   transition: background-color 0.3s ease-in-out;
 }
-/* line 108, ../sass/components/_footer.scss */
-footer input[type="text"]:hover {
+/* line 130, ../sass/components/_footer.scss */
+footer input[type="text"]:hover, footer input[type="email"]:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 113, ../sass/components/_footer.scss */
+/* line 135, ../sass/components/_footer.scss */
 footer input[type="submit"] {
   margin: 0 auto 13.376px auto;
   display: block;
@@ -2207,44 +2225,45 @@ footer input[type="submit"] {
   border: 1px solid rgba(80, 80, 80, 0.25);
   transition: background-color 0.3s ease-in-out;
 }
-/* line 128, ../sass/components/_footer.scss */
+/* line 150, ../sass/components/_footer.scss */
 footer input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
-/* line 134, ../sass/components/_footer.scss */
+/* line 156, ../sass/components/_footer.scss */
 footer .bottom-line.social {
   font-family: DinRegular;
 }
-/* line 137, ../sass/components/_footer.scss */
+/* line 159, ../sass/components/_footer.scss */
 footer .bottom-line.social a {
-  color: black;
+  color: #393839;
   opacity: 0.5;
+  text-transform: none;
   font-family: dinlight;
 }
 
 @media (min-width: 992px) {
-  /* line 147, ../sass/components/_footer.scss */
+  /* line 170, ../sass/components/_footer.scss */
   footer {
     margin-top: -296.322px;
   }
-  /* line 150, ../sass/components/_footer.scss */
+  /* line 173, ../sass/components/_footer.scss */
   footer .col {
     width: 33.333%;
     margin-top: 0px;
     margin-bottom: 60.455px;
   }
-  /* line 156, ../sass/components/_footer.scss */
+  /* line 179, ../sass/components/_footer.scss */
   footer .bottom-line {
     position: absolute !important;
     width: 555.051px;
     max-width: 33.333%;
     bottom: 60.455px;
   }
-  /* line 161, ../sass/components/_footer.scss */
+  /* line 184, ../sass/components/_footer.scss */
   footer .bottom-line.social {
     font-family: DinRegular;
   }
-  /* line 164, ../sass/components/_footer.scss */
+  /* line 187, ../sass/components/_footer.scss */
   footer .bottom-line.social a {
     color: black;
     opacity: 0.5;
@@ -2393,29 +2412,30 @@ footer .bottom-line.social a {
   text-align: center;
   letter-spacing: 0.075em;
   font-family: "Times New Roman";
+  font-style: italic;
   font-weight: normal;
   margin: 0px;
 }
-/* line 97, ../sass/components/_detail.scss */
+/* line 98, ../sass/components/_detail.scss */
 .item .overlay h4.pull-up {
   font-family: dinregular;
   margin-top: -0.75em;
 }
-/* line 102, ../sass/components/_detail.scss */
+/* line 103, ../sass/components/_detail.scss */
 .item .overlay h4 b {
   font-weight: normal;
   font-family: dinbold;
 }
-/* line 107, ../sass/components/_detail.scss */
+/* line 108, ../sass/components/_detail.scss */
 .item .overlay h4.credit {
   margin-bottom: 4.5em;
 }
-/* line 112, ../sass/components/_detail.scss */
+/* line 113, ../sass/components/_detail.scss */
 .item .overlay .description {
   font-size: 12px;
   line-height: 1.33;
 }
-/* line 117, ../sass/components/_detail.scss */
+/* line 118, ../sass/components/_detail.scss */
 .item .overlay .footer {
   bottom: 0;
   position: absolute;
@@ -2423,8 +2443,13 @@ footer .bottom-line.social a {
   box-sizing: border-box;
   padding: 20px;
 }
-/* line 125, ../sass/components/_detail.scss */
+/* line 124, ../sass/components/_detail.scss */
+.item .overlay .footer > * {
+  color: #393839;
+}
+/* line 129, ../sass/components/_detail.scss */
 .item .overlay .centralizer {
+  width: 100%;
   top: 50%;
   left: 50%;
   position: absolute;

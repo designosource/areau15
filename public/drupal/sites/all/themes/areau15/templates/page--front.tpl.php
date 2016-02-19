@@ -94,7 +94,7 @@ if($is_front){
             <div class="col">
                 <h3>Prijs-Project-Info</h3>
                 <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
-                <p class="bottom-line webshop">Coming Soon</p>
+                <p class="bottom-line webshop"><a href="mailto:info@areau.be"><b>VASTGOED</b>&nbsp;&nbsp;Te Koop</a></p>
             </div>
             <div class="col">
                 <h3>Contact</h3>
@@ -104,7 +104,7 @@ if($is_front){
                     <p class="country">België</p>
                 </div>
                 <div class="contact">
-                    <a class="mail" href="info@areau.be">info@areau.be</a>
+                    <a class="mail" href="mailto:info@areau.be">info@areau.be</a>
                     <a class="phone" href="tel:032261712">+32 (0)3 226 17 12</a>
                 </div>
             </div>
@@ -112,7 +112,7 @@ if($is_front){
                 <h3>'Op de hoogte blijven'</h3>
                 <form action="http://areau.us7.list-manage.com/subscribe/post?u=a8c08f548f562436553aeb031&id=7bbb23bcd8" method="POST">
                     <input type="text" name="name" id="name" placeholder="Naam">
-                    <input value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-MAIL" required="" type="text">
+                    <input value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-MAIL" required="" type="email">
                     <input type="submit" name="send" value="Verstuur" id="submit">
                 </form>
                 <p class="bottom-line social">Volg ons <a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a>&nbsp;/&nbsp;<a href="https://vimeo.com/user37928837">Vimeo</a></p>
