@@ -51,9 +51,9 @@
 	}
 
 	.header-footer {
-		position: absolute;
+		bottom: 10.789%;
+		position: fixed;
 		width: 100%;
-		bottom: 15px;
 		color: #FFF;
 		z-index: 80;
 	}
@@ -90,7 +90,7 @@
 		position: absolute;
 
 		width: 24.114%;
-		min-height: 60%;
+		min-height: 72.408%;
 
 		top: 50%;
 		left: 50%;
@@ -111,13 +111,13 @@
 			padding: 0 30px;
 			letter-spacing: 0.05em;
 			text-transform: uppercase;
-			margin-bottom: 0.5em;
-			font-size: 18.675pt;
+			margin-bottom: 0.75em;
+			font-size: 16.8075pt;
 		}
 
 		h4 {
 			padding: 0 30px;
-			font-size: 11.715pt;
+			font-size: 10.5435pt;
 			letter-spacing: 0.075em;
 			margin-top: -1.1em;
 			font-weight: 400;

@@ -26,6 +26,7 @@
 /* Component (SMACSS module) rules */
 @import "../fonts/webfont/stylesheet.css";
 // @import "components/_fonts";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700,700italic,600italic,400italic,300italic);
 @import "components/misc";
 @import "components/_general.scss";
 @import "components/_front-page.scss";

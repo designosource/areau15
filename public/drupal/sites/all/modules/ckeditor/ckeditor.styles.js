@@ -26,13 +26,20 @@ if(typeof(CKEDITOR) !== 'undefined') {
             { name : 'Preformatted Text', element : 'pre' },
             { name : 'Address'			, element : 'address' },
             */
-
-            { name : 'Pink Title'		, element : 'h3', styles : { 'color' : 'hotpink' } },
-            { name : 'Red Title'		, element : 'h3', styles : { 'color' : 'Red' } },
-            { name : 'DIN Light'        , element : 'span', styles : { 'font-family' : 'DIN Light' } },
-            { name : 'DIN Regular'      , element : 'span', styles : { 'font-family' : 'DIN Regular' } },
-            { name : 'DIN Medium'       , element : 'span', styles : { 'font-family' : 'DIN Medium' } },
-            { name : 'DIN Bold'         , element : 'span', styles : { 'font-family' : 'DIN Bold' } },
+            { name : 'DIN Light'                        , element : 'span', styles : { 'font-family' : 'DIN Light' } },
+            { name : 'DIN Regular'                      , element : 'span', styles : { 'font-family' : 'DIN Regular' } },
+            { name : 'DIN Medium'                       , element : 'span', styles : { 'font-family' : 'DIN Medium' } },
+            { name : 'DIN Bold'                         , element : 'span', styles : { 'font-family' : 'DIN Bold' } },
+            /* Source Sans Pro */
+            { name : 'SSP Light'            , element : 'span', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '300' } },
+            { name : 'SSP Normal'           , element : 'span', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '400' } },
+            { name : 'SSP Semibold'             , element : 'span', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '600' } },
+            { name : 'SSP Bold'         , element : 'span', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '700' } },
+            /* Italic */
+            { name : 'SSP Light Italic'     , element : 'i', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '300' } },
+            { name : 'SSP Normal Italic'    , element : 'i', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '400' } },
+            { name : 'SSP Semibold Italic'      , element : 'i', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '600' } },
+            { name : 'SSP Bold Italic'  , element : 'i', styles : { 'font-family' : 'Source Sans Pro', 'font-weight' : '700' } },
             /* Inline Styles */
 
             // These are core styles available as toolbar buttons. You may opt enabling
