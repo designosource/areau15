@@ -35,15 +35,26 @@ if($is_front){
             </div>
 
             <div class="header-footer areau-credits">
-                <p class="line1">DESIGN - INTERIOR - SERVICES</p>
-                <p class="line2">‘Something inspiring’</p>
+                <img src="sites/all/themes/areau15/images/logo_white.png" alt="">
             </div>
 
         <?php endif; ?>
+        
+        <div id="pause-music">
+            <img id="handlers" src="sites/all/themes/areau15/images/pauzebtn.png" alt="">
+        </div>
+
+        <div id="audio" style="display:none">
+            <audio id="music" controls autoplay>
+                <source src="sites/all/themes/areau15/videos/sound.m4a" type="audio/mp4" />
+            </audio>
+        </div>  
 
         <video autoplay="" loop="" class="video">
-            <source src="sites/all/themes/areau15/videos/intro.mp4" type="video/mp4">
-         </video>
+          <source src="sites/all/themes/areau15/videos/intro.mp4" type="video/mp4">
+          <source src="sites/all/themes/areau15/videos/intro.ogv" type="video/ogg">
+          <source src="sites/all/themes/areau15/videos/intro.webm" type="video/webm">
+        </video>
     </section>
 
     <section class="main-nav">
@@ -91,10 +102,10 @@ if($is_front){
 
     <footer>
         <div class="wrapper clearfix">
-            <div class="col">
+            <div class="col webshop">
                 <h3>Prijs-Project-Info</h3>
                 <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
-                <p class="bottom-line webshop"><a href="mailto:info@areau.be"><b>VASTGOED</b>&nbsp;&nbsp;Te Koop</a></p>
+                <p class="bottom-line"><a href="mailto:info@areau.be"><b>VASTGOED</b> Te Koop</a></p>
             </div>
             <div class="col">
                 <h3>Contact</h3>
@@ -104,18 +115,18 @@ if($is_front){
                     <p class="country">België</p>
                 </div>
                 <div class="contact">
-                    <a class="mail" href="mailto:info@areau.be">info@areau.be</a>
-                    <a class="phone" href="tel:032261712">+32 (0)3 226 17 12</a>
+                    <a href="mailto:info@areau.be" class="mail">info<span class="ico-logo"></span>areau.be</a>
+                    <a href="tel:032261712" class="phone">+32 [0]3 226 17 12</a>
                 </div>
             </div>
             <div class="col">
                 <h3>'Op de hoogte blijven'</h3>
-                <form action="http://areau.us7.list-manage.com/subscribe/post?u=a8c08f548f562436553aeb031&id=7bbb23bcd8" method="POST">
+                <form action="POST">
                     <input type="text" name="name" id="name" placeholder="Naam">
-                    <input value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-MAIL" required="" type="email">
-                    <input type="submit" name="send" value="Verstuur" id="submit">
+                    <input type="text" name="email" id="email" placeholder="E-Mail">
+                    <input type="submit" name="send" value="Verstuur" id="">
                 </form>
-                <p class="bottom-line social">Volg ons <a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a>&nbsp;/&nbsp;<a href="https://vimeo.com/user37928837">Vimeo</a></p>
+                <p class="bottom-line social"><b>Volg ons </b><a href="https://www.facebook.com/AREAU-Interieurarchitecten-793781097311302/?ref=ts&fref=ts">Facebook</a> / <a href="https://vimeo.com/user37928837">Vimeo</a></p>
             </div>
         </div>
     </footer>

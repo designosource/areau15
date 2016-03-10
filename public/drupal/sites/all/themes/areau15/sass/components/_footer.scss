@@ -4,12 +4,13 @@ footer {
 	text-transform: uppercase;
 	box-sizing: border-box;
 	position: relative;
+	z-index: 85;
 
 	.wrapper{
 		max-width: 1665.153px;
 	}
 
-	.col {
+	.col{
 		box-sizing: border-box;
 		margin: 45px 0;
 
@@ -42,16 +43,9 @@ footer {
 			}
 		}
 
-		.webshop{
-			text-transform: none;
-
-			a{
-				color: #393839;
-			}
-
-			b{
-				font-weight: 400;
-				font-family: dinmedium;
+		&.webshop{
+			img{
+				margin-top: -25px;
 			}
 		}
 	}
@@ -60,7 +54,7 @@ footer {
 		margin: 0 auto 32.865px auto;
 		padding: 0;
 		line-height: 27.96pt;
-		font-size: 21.29pt;
+		font-size: 14pt;
 		white-space: nowrap;
 		color: #393839;
 		font-family: dinmedium;
@@ -112,6 +106,16 @@ footer {
 		}
 	}
 
+	.ico-logo{
+		background-image: url("../images/AAlogo.png");
+		width: 14px;
+		height: 14px;
+		display: inline-block;
+		background-size: cover;
+		padding-left: 1px;
+		padding-top: 1px;
+	}
+
 	input[type="text"], input[type="email"] {
 		margin: 0 auto 13.376px auto;
 		display: block;
@@ -153,9 +157,15 @@ footer {
 	}
 
 	.bottom-line{
+		b{
+			font-weight: 400;
+			font-family: dinmedium;
+			color: rgba(0,0,0,0.7);
+		}
 		&.social{
-			font-family: DinRegular;
-
+			font-weight: normal;
+			font-family: dinlight;
+			color: gray;
 			& a{
 				color: #393839;
 				opacity: 0.5;

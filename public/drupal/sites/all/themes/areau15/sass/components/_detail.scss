@@ -5,8 +5,10 @@
 		overflow: hidden;
 
 		img {
-			height: 100%;
-			min-width: 100%;
+			min-width: 1920px;
+			position: absolute;
+			bottom: 0;
+			right: 0;
 		}
 
 		.content-wrapper {
@@ -59,13 +61,10 @@
 	overflow: hidden;
 
 	img {
-		min-height: 1080px;
 		min-width: 1920px;
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
+		bottom: 0;
+		right: 0;
 	}
 
 	.overlay {
@@ -79,7 +78,7 @@
 		transform: translateY(-50%);
 
 		h3 {
-			font-size: 35px;
+			font-size: 30px;
 			text-align: center;
 			font-family: dinmedium;
 			font-weight: normal;
@@ -103,6 +102,7 @@
 			& b{
 				font-weight: normal;
 				font-family: dinbold;
+				font-style: normal;
 			}
 
 			&.credit{

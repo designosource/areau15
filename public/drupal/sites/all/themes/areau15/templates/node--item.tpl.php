@@ -1,3 +1,4 @@
+<?php var_dump($node); ?>
 <div class="item">
 	<img src="<?php print file_create_url($node->field_image[LANGUAGE_NONE][0]['uri']); ?>" />
 	<div class="overlay">
