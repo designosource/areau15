@@ -1,21 +1,24 @@
 .detail {
 	.image-wrapper {
 		position: relative;
-		height: 1000px;
 		overflow: hidden;
 
 		img {
-			min-width: 1920px;
-			position: absolute;
-			bottom: 0;
-			right: 0;
+			width: 100%;
+			height: auto;
+			display: block;
 		}
 
 		.content-wrapper {
 
 			position: absolute;
-			width: 20.25%;
-			right: 6%;
+			width: 425px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgba(255,255,255,0.75);
+			box-sizing: border-box;
+			padding: 25px;
 	
 			h3 {
 				font-size: 18px;
@@ -57,14 +60,12 @@
 
 .item {
 	position: relative;
-	height: 1080px;
 	overflow: hidden;
 
 	img {
-		min-width: 1920px;
-		position: absolute;
-		bottom: 0;
-		right: 0;
+		width: 100%;
+		height: auto;
+		display: block;
 	}
 
 	.overlay {
@@ -76,6 +77,7 @@
 		top: 50%;
 		-webkit-transform: translateY(-50%);
 		transform: translateY(-50%);
+		pointer-events: none;
 
 		h3 {
 			font-size: 30px;
@@ -133,6 +135,14 @@
 			position: absolute;
 			transform: translate(-50%,-50%);
 			-webkit-transform: translate(-50%,-50%);
+		}
+	}
+}
+
+.view-projects{
+	.areau-credits{
+		.line1{
+			line-height: 1.4;
 		}
 	}
 }

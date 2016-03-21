@@ -39,6 +39,10 @@
 	    background-color: #FFF;
 	}
 
+	nav{
+		outline: none;
+	}
+
 	ul {
 
 		@extend .clearfix;

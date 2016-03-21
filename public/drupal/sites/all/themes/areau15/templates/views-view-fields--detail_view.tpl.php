@@ -30,36 +30,8 @@
 			echo '<div class="detail '. $template .'">';
 				echo '<div class="image-wrapper">';
 					echo theme_image($image);
-					echo '<div class="content-wrapper" style="top:'.$top.'%">';
+					echo '<div class="content-wrapper">';
 						echo '<section class="body">'. $bodyTop .'</section>';
-					echo '</div>';
-				echo '</div>';
-			echo '</div>'; 
-			break;
-
-		case "template_text_bottom":
-			
-			echo '<div class="detail '. $template .'">';
-				echo '<div class="image-wrapper">';
-				echo theme_image($image);
-					echo '<div class="content-wrapper" style="bottom:'.$bottom.'%">';
-						echo '<section class="body">'. $bodyBottom .'</section>';
-					echo '</div>';
-				echo '</div>';
-			echo '</div>'; 
-			break;
-
-		case "template_text_bottom_top":
-					
-			echo '<div class="detail '. $template .'">';
-				echo '<div class="image-wrapper">';
-				echo theme_image($image);
-					echo '<div class="content-wrapper top" style="top:'.$top.'%">';
-						echo '<section class="body">'. $bodyTop .'</section>';
-					echo '</div>';
-
-					echo '<div class="content-wrapper bottom" style="bottom:'.$bottom.'%">';
-						echo '<section class="body">'. $bodyBottom .'</section>';
 					echo '</div>';
 				echo '</div>';
 			echo '</div>'; 

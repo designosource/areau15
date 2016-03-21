@@ -34,9 +34,19 @@
 			width: auto !important;
 			height: auto !important;
 
+			bottom: 0 !important;
 			right: 0 !important;
+			left: 0 !important;
+			top: 0 !important;
+
+			transform: none !important;
 
 			padding: 5px 4vmin 35px 4vmin;
+			background-color: white;
+		}
+
+		.body{
+			transform: none !important;
 		}
 
 		& h3{
@@ -55,37 +65,6 @@
 			font-family: DinRegular;
 			font-size: 3.5vmin !important;
 			line-height: 4.5vmin !important;
-		}
-	}
-
-	.view-menu-view, .view-menu-open-huis{
-		.overlay{
-			padding: 0px !important;
-			width: 80% !important;
-			min-height: 80% !important; 
-			h3{
-				font-size: 7vmin;
-				color: rgba(0,0,0,0.75);
-				margin: 0.8em 0 0.5em 0 !important;
-			}
-
-			& .description p {
-				letter-spacing: 0.025em;
-				font-family: DinRegular;
-				font-size: 4.5vmin !important;
-				line-height: 5.5vmin !important;
-
-				max-height: 90vh;
-			}
-
-			& .description p span{
-				letter-spacing: 0.025em;
-				font-family: DinRegular;
-				font-size: 4.5vmin !important;
-				line-height: 5.5vmin !important;
-
-				max-height: 90vh;
-			}
 		}
 	}
 
@@ -160,6 +139,34 @@
 				br{
 					display: none;
 				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.view-menu-view, .view-menu-open-huis{
+		a{
+			text-decoration: none;
+		}
+		.overlay{
+			background-color: red !important;
+			position: relative !important;
+			transform: none !important;
+			left: auto !important;
+			right: auto !important;
+			width: 100% !important;
+			height: auto !important;
+			padding: 25px !important;
+			text-decoration: none;
+			.centralizer{
+				position: relative;
+				transform: none;
+				left: auto;
+				top: auto;
+			}
+			.footer{
+				position: relative;
 			}
 		}
 	}

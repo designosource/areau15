@@ -54,6 +54,7 @@ if($is_front){
           <source src="sites/all/themes/areau15/videos/intro.mp4" type="video/mp4">
           <source src="sites/all/themes/areau15/videos/intro.ogv" type="video/ogg">
           <source src="sites/all/themes/areau15/videos/intro.webm" type="video/webm">
+          <img src="sites/all/themes/areau15/images/shop.png" alt="Video Fallback" title="Your browser does not support the <video> tag">
         </video>
     </section>
 
