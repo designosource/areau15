@@ -1,0 +1,127 @@
+.page-ons-verhaal{
+	#content section{
+		font-size: 9px;
+		width: 100%;
+		height: auto;
+		position: relative;
+		img{
+			display: block;
+			width: 100%;
+		}
+		.text{
+			display: block;
+			width: 100%;
+			padding: 20px 80px;
+			box-sizing: border-box;
+			p{
+				font-size: 2em;
+				line-height: 1.33em;
+				margin: 2em 0;
+				padding: 0;
+				font-family: "Din Light";
+				letter-spacing: 0.075em;
+			}
+			b{
+				display: block;
+				width: 100%;
+				font-size: 2em;
+				line-height: 1.33em;
+				margin: 0;
+				padding: 0;
+				font-weight: 400;
+				font-family: "Din Regular";
+				letter-spacing: 0.075em;
+			}
+			.bot-20{
+				margin-bottom: 2.8em;
+			}
+		}
+	}
+
+	.text-center{
+		text-align: center;
+	}
+
+	.ssp{
+		font-family: "Source Sans Pro"
+	}
+}
+
+@media screen and (min-width:920px){
+	.page-ons-verhaal{
+		#content section{
+			font-size: 0.4225625vw;
+			.text{
+				position: absolute;
+				padding: 20px 0px;
+				width: 20.8%;
+				right: 6.4%;
+
+				&.first{
+					top:50%;
+					transform: translateY(-50%);
+				}
+				&.second{
+					bottom: 0;
+				}
+				&.third{
+					top:50%;
+					transform: translateY(-65%);
+				}
+				&.fourth{
+					top:50%;
+					transform: translateY(-90%);
+				}
+				&.fifth{
+					top:0%;
+				}
+
+				&.white{
+					color: white;
+				}
+				&.brown{
+					color: #7C6857;
+				}
+
+				.top-150{
+					margin-top: 10.5em;
+				}
+				.top-80{
+					margin-top: 11.2em;
+				}
+				.top-30{
+					margin-top: 4.2em;
+				}
+				.top-20{
+					margin-top: 2.8em;
+				}
+				.top-10{
+					margin-top: 1.4em;
+				}
+
+				.bot-20{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width:1200px){
+	.page-ons-verhaal{
+		#content section{
+			font-size: 0.33085vw;
+			.text{
+				&.second{
+					bottom: 2.5%;
+				}
+				&.fifth{
+					top: 5%;
+				}
+				.top-150{
+					margin-top: 21em;
+				}
+			}
+		}
+	}
+}
