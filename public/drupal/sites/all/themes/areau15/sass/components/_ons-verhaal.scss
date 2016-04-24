@@ -18,7 +18,7 @@
 				line-height: 1.33em;
 				margin: 2em 0;
 				padding: 0;
-				font-family: "Din Light";
+				font-family: DinLight;
 				letter-spacing: 0.075em;
 			}
 			b{
@@ -29,7 +29,7 @@
 				margin: 0;
 				padding: 0;
 				font-weight: 400;
-				font-family: "Din Regular";
+				font-family: DinRegular;
 				letter-spacing: 0.075em;
 			}
 			.bot-20{
@@ -43,7 +43,11 @@
 	}
 
 	.ssp{
-		font-family: "Source Sans Pro"
+		font-family: "Source Sans Pro" !important;
+	}
+
+	.din-regular{
+		font-family: DinRegular !important;
 	}
 }
 
@@ -59,6 +63,9 @@
 
 				&.first{
 					top:50%;
+					-webkit-transform: translateY(-50%);
+					-moz-transform: translateY(-50%);
+					-o-transform: translateY(-50%);
 					transform: translateY(-50%);
 				}
 				&.second{
@@ -66,10 +73,16 @@
 				}
 				&.third{
 					top:50%;
+					-webkit-transform: translateY(-65%);
+					-moz-transform: translateY(-65%);
+					-o-transform: translateY(-65%);
 					transform: translateY(-65%);
 				}
 				&.fourth{
 					top:50%;
+					-webkit-transform: translateY(-90%);
+					-moz-transform: translateY(-90%);
+					-o-transform: translateY(-90%);
 					transform: translateY(-90%);
 				}
 				&.fifth{

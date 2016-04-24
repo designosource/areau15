@@ -19,6 +19,7 @@
 		min-height: 100%; 
 		width: auto; 
 		height: auto;
+		object-fit: cover;
 	}
 
 	img{
@@ -93,8 +94,10 @@
 
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%,-50%);
 		-webkit-transform: translate(-50%,-50%);
+		-moz-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
 
 		padding: 130px 0 0 0;
 
@@ -111,7 +114,7 @@
 			padding: 0 30px;
 			letter-spacing: 0.05em;
 			text-transform: uppercase;
-			margin-bottom: 0.75em;
+			margin-bottom: 1.25em;
 			font-size: 16.8075pt;
 		}
 
@@ -126,7 +129,7 @@
 		.description {
 			padding: 0 30px;
 			font-family: DinRegular;
-			margin-top: 2em;
+			margin-top: 2.25em;
 		}
 
 		.footer {
@@ -145,9 +148,19 @@
 .view-menu-open-huis {
 	.item {
 		.overlay {
-			min-height: 45%;
-			-webkit-transform: translate(-50%,-80%);
-			transform: translate(-50%,-80%);
+			width: 100%;
+			max-width: 1024px;
+			top: 0;
+			left: 0;
+			right: 0;
+			transform: none;
+			margin: 5% auto;
+			max-height: 100%;
+			padding: 0px;
+			height: auto;
+			.description{
+				padding: 0 5.8%;
+			}
 		}
 	}
 }

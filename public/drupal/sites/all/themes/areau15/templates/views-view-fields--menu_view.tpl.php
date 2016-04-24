@@ -10,6 +10,7 @@
 
 <a href="/<?php echo strToLower($target); ?>">
 	<div class="item">
+	<?php echo theme_image($image); ?>
 	<?php if ($title !== "null"): ?>
 		<div class="overlay">
 			<div class="centralizer">
@@ -23,6 +24,5 @@
 			</div>
 		</div>
 	<?php endif ?>
-		<?php echo theme_image($image); ?>
 	</div>
 </a>

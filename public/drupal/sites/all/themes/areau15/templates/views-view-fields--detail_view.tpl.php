@@ -38,5 +38,10 @@
 			break;
 
 		default: 
-			 echo $template;
+			 echo '<div class="detail '. $template .'">';
+				echo '<div class="image-wrapper">';
+					echo theme_image($image);
+				echo '</div>';
+			echo '</div>'; 
+			break;
 	}

@@ -1,3 +1,13 @@
+.view-id-detail_view{
+	.view-content{
+		.views-row:nth-child(2){
+			.content-wrapper{
+				background-color: transparent;
+			}
+		}
+	}
+}
+
 .detail {
 	.image-wrapper {
 		position: relative;
@@ -15,6 +25,9 @@
 			width: 425px;
 			top: 50%;
 			left: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
 			transform: translate(-50%,-50%);
 			background-color: rgba(255,255,255,0.75);
 			box-sizing: border-box;
@@ -76,6 +89,8 @@
 
 		top: 50%;
 		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
 		pointer-events: none;
 
@@ -133,8 +148,10 @@
 			top:50%;
 			left:50%;
 			position: absolute;
-			transform: translate(-50%,-50%);
 			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
 		}
 	}
 }
