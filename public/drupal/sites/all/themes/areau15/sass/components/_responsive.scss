@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px) {
 	.overlay {
 		opacity: 1 !important;
-		background-color: rgba(255,255,255,0.45) !important;
+		background-color: rgba(255,255,255,0.45);
 	}
 
 	.view-projects,
@@ -93,15 +93,6 @@
 		}
 	}
 
-	.view-menu-open-huis .item{
-		.overlay{
-			-webkit-transform: translate(-50%,-50%);
-			-moz-transform: translate(-50%,-50%);
-			-o-transform: translate(-50%,-50%);
-			transform: translate(-50%,-50%);
-		}
-	}
-
 	#content>.item{
 
 		height: auto;
@@ -175,10 +166,6 @@
 				}
 			}
 		}
-	}
-	footer{
-		//TO DISCUSS
-		background-image: url('/sites/default/files/menu/bckgr_openhuis.jpg');
 	}
 	.item .overlay .description{
 		p, div, span, b, i, area, abbr, a, em, h1, h2, h3, h4, h5, h6, ul, li, td, th{

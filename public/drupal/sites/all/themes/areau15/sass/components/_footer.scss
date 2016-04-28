@@ -5,6 +5,8 @@ footer {
 	box-sizing: border-box;
 	position: relative;
 	z-index: 85;
+	background-image: url('/sites/default/files/menu/bckgr_openhuis.jpg');
+	padding-top: 60.455px;
 
 	.wrapper{
 		max-width: 1665.153px;
@@ -178,8 +180,6 @@ footer {
 
 @media(min-width: 992px) {
 	footer {
-		margin-top: -296.322px; //STATIC
-
 		.col {
 			width: 33.333%;
 			margin-top: 0px;

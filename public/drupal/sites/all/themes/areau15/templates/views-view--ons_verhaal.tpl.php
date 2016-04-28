@@ -21,22 +21,22 @@
 		<b class="text-center">DESIGN - INTERIOR - SERVICES</b>
 		<b class="text-center ssp bot-20"><i>out - and - out the inside</i></b>
 		<b class="top-30">DESIGN</b>
-		<b class="ssp">/di’zajn/</b>
+		<b class="ssp"><i>/di-zajn/</i></b>
 		<p class="top-10">
 			<span class="din-regular">1</span> artistiek ontwerp, zowel van iconische designers als van eigen hand <span class="din-regular">2</span> stijl, vormgeving en (kunst)geschiedenis <span class="din-regular">3</span> doordacht vormgegeven voorwerpen om een ruimte in te richten
 		</p>
 		<b class="top-30">INTERIOR</b>
-		<b class="ssp">/InˈtIərIə/</b>
+		<b class="ssp"><i>/&#618;nˈt&#618;&#601;r&#618;&#601;/</i></b>
 		<p class="top-10">
 			<span class="din-regular">1</span> interieur, binnenkant, kern <span class="din-regular">2</span> context, verhaal met veel facetten <span class="din-regular">3</span> innerlijk, ziel, binnenste, identiteit
 		</p>
 		<b class="top-30">SERVICES</b>
-		<b class="ssp">/’s3:vIs/</b>
+		<b class="ssp"><i>/’s&#604;:v&#303;s/</i></b>
 		<p class="top-10">
 			<span class="din-regular">1</span> klanten helpen, inspireren en adviseren <span class="din-regular">2</span> coördineren, samenwerken en overtuigen <span class="din-regular">3</span> luisterend oor, neus voor esthetiek, oog voor detail
 		</p>
 		<b class="top-30">AREAU</b>
-		<b class="ssp">\a.  o\/</b>
+		<b class="ssp"><i>/a'&#638;o/</i></b>
 		<p class="top-10">
 			<span class="din-regular">1</span> design <span class="din-regular">2</span> interior <span class="din-regular">3</span> services
 		</p>

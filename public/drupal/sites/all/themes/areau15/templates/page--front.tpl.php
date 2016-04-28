@@ -105,7 +105,9 @@ if($is_front){
         <div class="wrapper clearfix">
             <div class="col webshop">
                 <h3>Prijs-Project-Info</h3>
-                <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
+                <a href="http://www.areau-woonproject.be/">
+                    <img src="sites/all/themes/areau15/images/shop.png" alt="webshop">
+                </a>
                 <p class="bottom-line"><a href="mailto:info@areau.be"><b>VASTGOED</b> Te Koop</a></p>
             </div>
             <div class="col">
