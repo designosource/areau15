@@ -15,19 +15,19 @@
 }
 
 /* Import Sass mixins, variables, Compass modules, etc. */
-@import "init";
+//@import "init";
 
 /* HTML element (SMACSS base) rules */
-@import "normalize";
+//@import "normalize";
 
 /* Layout rules */
-@import "layouts/responsive";
+//@import "layouts/responsive";
 
 /* Component (SMACSS module) rules */
 @import "../fonts/webfont/stylesheet.css";
 // @import "components/_fonts";
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700,700italic,600italic,400italic,300italic);
-@import "components/misc";
+//@import "components/misc";
 @import "components/_general.scss";
 @import "components/_front-page.scss";
 @import "components/_main-nav.scss";
@@ -39,8 +39,17 @@
 @import "components/_ons-verhaal.scss";
 
 // Optionally, add your own components here.
-@import "print";
+//@import "print";
 
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#skip-link{
+    margin: 0;
+}

@@ -111,7 +111,7 @@ if($is_front){
                 <p class="bottom-line"><a href="mailto:info@areau.be"><b>VASTGOED</b> Te Koop</a></p>
             </div>
             <div class="col">
-                <h3>Contact</h3>
+                <h3><img src="sites/all/themes/areau15/images/logo_black.png"></h3>
                 <div class="address">
                     <p class="street">Mechelsesteenweg 87</p>
                     <p class="province">2018 Antwerpen</p>
