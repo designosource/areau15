@@ -31,7 +31,7 @@
 			<span class="din-regular">1</span> interieur, binnenkant, kern <span class="din-regular">2</span> context, verhaal met veel facetten <span class="din-regular">3</span> innerlijk, ziel, binnenste, identiteit
 		</p>
 		<b class="top-30">SERVICES</b>
-		<b class="ssp"><i>/’s&#604;:v&#303;s/</i></b>
+		<b class="ssp"><i>/’s&#604;:v&#618;s/</i></b>
 		<p class="top-10">
 			<span class="din-regular">1</span> klanten helpen, inspireren en adviseren <span class="din-regular">2</span> coördineren, samenwerken en overtuigen <span class="din-regular">3</span> luisterend oor, neus voor esthetiek, oog voor detail
 		</p>
