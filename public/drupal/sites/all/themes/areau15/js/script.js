@@ -48,6 +48,19 @@ $(document).ready(function() {
         $("#primary-menu").slideToggle();
     });
 
+    var breaks = $(".body .rtecenter");
+
+    for (var i = breaks.length - 1; i >= 0; i--) {
+        var item = breaks[i];
+        if (item.innerHTML == "&nbsp;") {
+            if (item.previousElementSibling != null && item.previousElementSibling.innerHTML != "&nbsp;") {
+                // do something if items are useful whitespace
+            }else{
+                item.style.display = "none";
+            }
+        }
+    }
+
 });
 
 
